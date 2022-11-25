@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -150,10 +150,10 @@ TextureImporter:
       name: main_menu_2
       rect:
         serializedVersion: 2
-        x: 210
-        y: 153
-        width: 253
-        height: 100
+        x: 318
+        y: 229
+        width: 21
+        height: 21
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -255,13 +255,13 @@ TextureImporter:
       name: main_menu_7
       rect:
         serializedVersion: 2
-        x: 86
-        y: 35
-        width: 116
-        height: 69
+        x: 90
+        y: 92
+        width: 106
+        height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 17, y: 0, z: 42, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -276,10 +276,10 @@ TextureImporter:
       name: main_menu_8
       rect:
         serializedVersion: 2
-        x: 86
-        y: 8
-        width: 116
-        height: 22
+        x: 110
+        y: 39
+        width: 14
+        height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
