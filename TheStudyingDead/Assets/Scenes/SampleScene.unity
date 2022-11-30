@@ -6068,6 +6068,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+<<<<<<< Updated upstream
   m_Sprite: {fileID: 21300000, guid: 55ffd0189c57a0349b5c4e678cf432aa, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
@@ -6259,6 +6260,14 @@ RectTransform:
   m_PrefabInstance: {fileID: 283091413}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &2062035578
+=======
+--- !u!4 &559142269 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1452505903811069830, guid: f6b273663992f844e8a4c7211ee6eabe, type: 3}
+  m_PrefabInstance: {fileID: 1452505903285850875}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &981996845
+>>>>>>> Stashed changes
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6540,6 +6549,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
@@ -6567,10 +6577,14 @@ CanvasRenderer:
   m_GameObject: {fileID: 2144798773}
   m_CullTransparentMesh: 1
 --- !u!1001 &6157103760827001664
+=======
+--- !u!1001 &1452505903285850875
+>>>>>>> Stashed changes
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+<<<<<<< Updated upstream
     m_TransformParent: {fileID: 307970822}
     m_Modifications:
     - target: {fileID: 6157103760794186206, guid: 7dd453eb95812c1469c350ebcfb966e7, type: 3}
@@ -6663,3 +6677,57 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7dd453eb95812c1469c350ebcfb966e7, type: 3}
+=======
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1452505903811069825, guid: f6b273663992f844e8a4c7211ee6eabe, type: 3}
+      propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 1452505903811069830, guid: f6b273663992f844e8a4c7211ee6eabe, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1452505903811069830, guid: f6b273663992f844e8a4c7211ee6eabe, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1452505903811069830, guid: f6b273663992f844e8a4c7211ee6eabe, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1452505903811069830, guid: f6b273663992f844e8a4c7211ee6eabe, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1452505903811069830, guid: f6b273663992f844e8a4c7211ee6eabe, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1452505903811069830, guid: f6b273663992f844e8a4c7211ee6eabe, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1452505903811069830, guid: f6b273663992f844e8a4c7211ee6eabe, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1452505903811069830, guid: f6b273663992f844e8a4c7211ee6eabe, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1452505903811069830, guid: f6b273663992f844e8a4c7211ee6eabe, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1452505903811069830, guid: f6b273663992f844e8a4c7211ee6eabe, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1452505903811069830, guid: f6b273663992f844e8a4c7211ee6eabe, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f6b273663992f844e8a4c7211ee6eabe, type: 3}
+>>>>>>> Stashed changes
