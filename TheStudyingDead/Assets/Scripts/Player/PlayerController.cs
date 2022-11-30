@@ -6,7 +6,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     private PlayerInput _playerInput;
-    private string _directionState = DOWN;
+    private string _directionState = RIGHT;
     private Animator _animatorController;
 
     private PlayerMover _playerMover;
