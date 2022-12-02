@@ -7,13 +7,14 @@ public class InventoryAnimatedWindow : AnimatedWindow
     [SerializeField] private GameObject _inventory;
     [SerializeField] private GameObject _tasks;
     
-
     private Canvas _inventoryCanvas;
 
     void Start()
     {
         _inventoryCanvas = GetComponent<Canvas>();
         _inventoryCanvas.enabled = false;
+        _inventory.SetActive(false);
+        _tasks.SetActive(false);
     }
 
     void Update()
@@ -25,7 +26,6 @@ public class InventoryAnimatedWindow : AnimatedWindow
             {
                 _tasks.SetActive(false);
                 _inventory.SetActive(false);
-
             }
         }
     }
@@ -35,6 +35,7 @@ public class InventoryAnimatedWindow : AnimatedWindow
         _tasks.SetActive(false);
         _inventory.SetActive(true);
     }
+
     public void OnShowTasks()
     {
         _inventory.SetActive(false);
