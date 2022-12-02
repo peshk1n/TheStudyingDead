@@ -6,6 +6,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] private Lantern _lantern;
+    [SerializeField] private InventoryAnimatedWindow _inventoryWindow;
 
     private PlayerInput _playerInput;
     private string _directionState = RIGHT;
@@ -25,6 +26,7 @@ public class PlayerController : MonoBehaviour
         _playerInput = new PlayerInput();
         _playerInput.Player.Interact.performed += ctx => OnInteract();
         _playerInput.Player.Lantern.performed += ctx => OnLanternEnable();
+        _playerInput.Player.OpenNotebook.performed += ctx => OnOpenNotebook();
 
         _animatorController = GetComponent<Animator>();
         _playerMover = GetComponent<PlayerMover>();
@@ -58,5 +60,10 @@ public class PlayerController : MonoBehaviour
             _lantern.TurnOff();
         else
             _lantern.TurnOn();
+    }
+
+    public void OnOpenNotebook()
+    {
+        _inventoryWindow.OpenNotebook();
     }
 }

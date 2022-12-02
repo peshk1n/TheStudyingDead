@@ -17,16 +17,13 @@ public class InventoryAnimatedWindow : AnimatedWindow
         _tasks.SetActive(false);
     }
 
-    void Update()
+    public void OpenNotebook()
     {
-        if (Input.GetKeyDown(KeyCode.I))
+        _inventoryCanvas.enabled = !_inventoryCanvas.enabled;
+        if (!_inventoryCanvas.enabled)
         {
-            _inventoryCanvas.enabled = !_inventoryCanvas.enabled;
-            if(!_inventoryCanvas.enabled)
-            {
-                _tasks.SetActive(false);
-                _inventory.SetActive(false);
-            }
+            _tasks.SetActive(false);
+            _inventory.SetActive(false);
         }
     }
 

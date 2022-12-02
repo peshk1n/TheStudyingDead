@@ -3306,7 +3306,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -7895,6 +7895,10 @@ PrefabInstance:
       propertyPath: _lantern
       value: 
       objectReference: {fileID: 816084521}
+    - target: {fileID: 7575616383586808733, guid: 2c512bfd4fa62de4f96d3fb48f95dde2, type: 3}
+      propertyPath: _inventoryWindow
+      value: 
+      objectReference: {fileID: 128423561}
     - target: {fileID: 7575616383586808803, guid: 2c512bfd4fa62de4f96d3fb48f95dde2, type: 3}
       propertyPath: m_Name
       value: Player

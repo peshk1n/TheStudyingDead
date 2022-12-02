@@ -53,6 +53,15 @@ public partial class @PlayerInput : IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""OpenNotebook"",
+                    ""type"": ""Button"",
+                    ""id"": ""17b22b83-e031-4f69-a747-d19514d5b142"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -132,6 +141,17 @@ public partial class @PlayerInput : IInputActionCollection2, IDisposable
                     ""action"": ""Lantern"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""48ae5b50-a5bf-41c0-b8c9-88471d4f4307"",
+                    ""path"": ""<Keyboard>/i"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""OpenNotebook"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -160,6 +180,7 @@ public partial class @PlayerInput : IInputActionCollection2, IDisposable
         m_Player_Move = m_Player.FindAction("Move", throwIfNotFound: true);
         m_Player_Interact = m_Player.FindAction("Interact", throwIfNotFound: true);
         m_Player_Lantern = m_Player.FindAction("Lantern", throwIfNotFound: true);
+        m_Player_OpenNotebook = m_Player.FindAction("OpenNotebook", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -222,6 +243,7 @@ public partial class @PlayerInput : IInputActionCollection2, IDisposable
     private readonly InputAction m_Player_Move;
     private readonly InputAction m_Player_Interact;
     private readonly InputAction m_Player_Lantern;
+    private readonly InputAction m_Player_OpenNotebook;
     public struct PlayerActions
     {
         private @PlayerInput m_Wrapper;
@@ -229,6 +251,7 @@ public partial class @PlayerInput : IInputActionCollection2, IDisposable
         public InputAction @Move => m_Wrapper.m_Player_Move;
         public InputAction @Interact => m_Wrapper.m_Player_Interact;
         public InputAction @Lantern => m_Wrapper.m_Player_Lantern;
+        public InputAction @OpenNotebook => m_Wrapper.m_Player_OpenNotebook;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -247,6 +270,9 @@ public partial class @PlayerInput : IInputActionCollection2, IDisposable
                 @Lantern.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnLantern;
                 @Lantern.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnLantern;
                 @Lantern.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnLantern;
+                @OpenNotebook.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnOpenNotebook;
+                @OpenNotebook.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnOpenNotebook;
+                @OpenNotebook.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnOpenNotebook;
             }
             m_Wrapper.m_PlayerActionsCallbackInterface = instance;
             if (instance != null)
@@ -260,6 +286,9 @@ public partial class @PlayerInput : IInputActionCollection2, IDisposable
                 @Lantern.started += instance.OnLantern;
                 @Lantern.performed += instance.OnLantern;
                 @Lantern.canceled += instance.OnLantern;
+                @OpenNotebook.started += instance.OnOpenNotebook;
+                @OpenNotebook.performed += instance.OnOpenNotebook;
+                @OpenNotebook.canceled += instance.OnOpenNotebook;
             }
         }
     }
@@ -278,5 +307,6 @@ public partial class @PlayerInput : IInputActionCollection2, IDisposable
         void OnMove(InputAction.CallbackContext context);
         void OnInteract(InputAction.CallbackContext context);
         void OnLantern(InputAction.CallbackContext context);
+        void OnOpenNotebook(InputAction.CallbackContext context);
     }
 }
