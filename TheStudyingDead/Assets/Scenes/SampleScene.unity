@@ -291,8 +291,9 @@ GameObject:
   - component: {fileID: 162507788}
   - component: {fileID: 162507790}
   - component: {fileID: 162507789}
+  - component: {fileID: 162507791}
   m_Layer: 5
-  m_Name: Image
+  m_Name: HeallthBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -338,11 +339,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
+  m_Sprite: {fileID: 21300000, guid: 579e13374e61c7243997e7dcd1812e6d, type: 3}
+  m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
-  m_FillMethod: 4
+  m_FillMethod: 0
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
@@ -356,6 +357,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 162507787}
   m_CullTransparentMesh: 1
+--- !u!114 &162507791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 162507787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba7acea409e9ed44eacb99bc341d9a03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _bar: {fileID: 162507789}
 --- !u!1 &183744205
 GameObject:
   m_ObjectHideFlags: 0
@@ -5008,8 +5022,9 @@ GameObject:
   - component: {fileID: 1378184225}
   - component: {fileID: 1378184227}
   - component: {fileID: 1378184226}
+  - component: {fileID: 1378184228}
   m_Layer: 5
-  m_Name: HealthBar
+  m_Name: HealthController
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5074,6 +5089,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1378184224}
   m_CullTransparentMesh: 1
+--- !u!114 &1378184228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1378184224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bab6a42513d751439ddf91a015017d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _healthBar: {fileID: 162507791}
 --- !u!224 &1389159154 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6157103760794186206, guid: 7dd453eb95812c1469c350ebcfb966e7, type: 3}
