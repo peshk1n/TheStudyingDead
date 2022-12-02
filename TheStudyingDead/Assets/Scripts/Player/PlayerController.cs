@@ -5,6 +5,8 @@ using UnityEngine;
 [RequireComponent(typeof(PlayerMover))]
 public class PlayerController : MonoBehaviour
 {
+    [SerializeField] private Lantern _lantern;
+
     private PlayerInput _playerInput;
     private string _directionState = RIGHT;
     private Animator _animatorController;
@@ -22,6 +24,7 @@ public class PlayerController : MonoBehaviour
     {
         _playerInput = new PlayerInput();
         _playerInput.Player.Interact.performed += ctx => OnInteract();
+        _playerInput.Player.Lantern.performed += ctx => OnLanternEnable();
 
         _animatorController = GetComponent<Animator>();
         _playerMover = GetComponent<PlayerMover>();
@@ -47,5 +50,13 @@ public class PlayerController : MonoBehaviour
     public void OnInteract()
     {
         _playerInteraction.Interact();
+    }
+
+    public void OnLanternEnable()
+    {
+        if (_lantern.IsEnabled)
+            _lantern.TurnOff();
+        else
+            _lantern.TurnOn();
     }
 }
