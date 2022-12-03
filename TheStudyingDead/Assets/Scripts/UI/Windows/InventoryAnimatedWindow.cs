@@ -13,6 +13,7 @@ public class InventoryAnimatedWindow : AnimatedWindow
     {
         _inventoryCanvas = GetComponent<Canvas>();
         _inventoryCanvas.enabled = false;
+        
         _inventory.SetActive(false);
         _tasks.SetActive(false);
     }
