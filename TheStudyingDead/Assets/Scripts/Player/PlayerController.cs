@@ -7,6 +7,8 @@ public class PlayerController : MonoBehaviour
 {
     [SerializeField] private Lantern _lantern;
     [SerializeField] private InventoryAnimatedWindow _inventoryWindow;
+    [SerializeField] private MenuAnimatedWindow _menuWindow;
+
 
     private PlayerInput _playerInput;
     private string _directionState = RIGHT;
@@ -27,6 +29,8 @@ public class PlayerController : MonoBehaviour
         _playerInput.Player.Interact.performed += ctx => OnInteract();
         _playerInput.Player.Lantern.performed += ctx => OnLanternEnable();
         _playerInput.Player.OpenNotebook.performed += ctx => OnOpenNotebook();
+        _playerInput.Player.OpenMenu.performed += ctx => OnOpenMenu();
+
 
         _animatorController = GetComponent<Animator>();
         _playerMover = GetComponent<PlayerMover>();
@@ -65,5 +69,10 @@ public class PlayerController : MonoBehaviour
     public void OnOpenNotebook()
     {
         _inventoryWindow.OpenNotebook();
+    }
+
+    public void OnOpenMenu()
+    {
+        _menuWindow.OpenMenu();
     }
 }
