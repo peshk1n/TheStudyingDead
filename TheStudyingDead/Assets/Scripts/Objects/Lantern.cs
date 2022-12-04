@@ -6,6 +6,7 @@ public class Lantern : MonoBehaviour
     [SerializeField] private Light2D _light;
     [SerializeField] private bool _isEnabled = false;
     [SerializeField] private int _charge = 3;
+    [SerializeField] private float _maxIntensity;
 
     public bool IsEnabled => _isEnabled;
 
@@ -14,7 +15,7 @@ public class Lantern : MonoBehaviour
         if (_charge <= 0)
             return;
 
-        _light.intensity = 1;
+        _light.intensity = _maxIntensity;
         _isEnabled = true;
     }
 
