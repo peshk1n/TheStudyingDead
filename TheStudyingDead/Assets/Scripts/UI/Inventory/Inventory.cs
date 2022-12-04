@@ -29,6 +29,19 @@ public class Inventory : MonoBehaviour
         OnInventoryChanged.Invoke();
     }
 
+    public void DeleteItem(Item item, int amount = 1)
+    {
+        foreach (InventorySlot slot in items)
+        {
+            if (slot.item.id == item.id)
+            {
+                slot.amount -= amount;
+                OnInventoryChanged.Invoke();
+                return;
+            }
+        }
+    }
+
     public Item GetItem(int i)
     {
         return i < items.Count ? items[i].item : null;

@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -17,7 +18,7 @@ public class Player : MonoBehaviour
 
     private void Awake()
     {
-        _health = _maxHealth;
+        _health = _maxHealth-4;
     }
 
     public void ModifyHealth(int healthDelta)

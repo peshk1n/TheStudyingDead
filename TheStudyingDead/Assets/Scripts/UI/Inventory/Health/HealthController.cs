@@ -6,7 +6,6 @@ using UnityEngine.UI;
 public class HealthController : MonoBehaviour
 {
     [SerializeField] private HealthBar _healthBar;
-
     private Player _player;
 
     private void Start()
@@ -17,7 +16,7 @@ public class HealthController : MonoBehaviour
     private void Update()
     {
         var maxHealth = _player.MaxHealth;
-        var value = (float)(_player.CurHealth / maxHealth);
+        var value = (float)((double)_player.CurHealth / (double)maxHealth);
         _healthBar.SetProgress(value);
     }
 }
