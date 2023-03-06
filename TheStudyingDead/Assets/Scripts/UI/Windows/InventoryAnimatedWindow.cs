@@ -28,6 +28,12 @@ public class InventoryAnimatedWindow : AnimatedWindow
         }
     }
 
+    public void CloseNotebook()
+    {
+        _inventoryCanvas.enabled = false;
+        _tasks.SetActive(false);
+        _inventory.SetActive(false);
+    }
     public void OnShowInventory()
     {   
         _tasks.SetActive(false);

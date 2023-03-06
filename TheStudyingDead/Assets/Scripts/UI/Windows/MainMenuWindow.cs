@@ -29,14 +29,6 @@ public class MainMenuWindow : AnimatedWindow
     public void OnExit()
     {
         Application.Quit();
-//        _closeAction = () =>
-//        {
-//            Application.Quit();
-//#if UNITY_EDITOR
-//            UnityEditor.EditorApplication.isPlaying = false;
-//#endif
-//            Close();
-//        };
     }
 
     public override void OnCloseAnimationComplete()

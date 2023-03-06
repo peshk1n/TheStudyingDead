@@ -68,11 +68,13 @@ public class PlayerController : MonoBehaviour
 
     public void OnOpenNotebook()
     {
+        _menuWindow.Close();
         _inventoryWindow.OpenNotebook();
     }
 
     public void OnOpenMenu()
     {
+        _inventoryWindow.CloseNotebook();
         _menuWindow.OpenMenu();
     }
 }

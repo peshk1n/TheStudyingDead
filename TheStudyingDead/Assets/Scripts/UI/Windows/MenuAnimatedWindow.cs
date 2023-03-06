@@ -64,16 +64,6 @@ public class MenuAnimatedWindow : MonoBehaviour
     public void OnExit()
     {
         Application.Quit();
-//        _closeAction = () =>
-//        {
-//            Application.Quit();
-//#if UNITY_EDITOR
-//            UnityEditor.EditorApplication.isPlaying = false;
-//#endif
-//            OpenMenu();
-
-//            Close();
-//        };
     }
 
     public void OnCloseAnimationComplete()
