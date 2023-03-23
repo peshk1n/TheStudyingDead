@@ -1,0 +1,827 @@
+fileFormatVersion: 2
+guid: 9985df44b1ffab64fa94ac0cfca2eca6
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Beside Table_Dresser_Closet_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 816
+        width: 82
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32c8f50a2027d70468ed33d218119ba1
+      internalID: -22137894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beside Table_Dresser_Closet_1
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 817
+        width: 94
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a33b100716a469d4483b38474a4fc047
+      internalID: 704615667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beside Table_Dresser_Closet_2
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 816
+        width: 94
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0c2dd5c45247564496bdb8ed80c0e8f
+      internalID: 1373959937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beside Table_Dresser_Closet_3
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 720
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a5ed7c6ca6496644bd56cfe64274516
+      internalID: 105727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beside Table_Dresser_Closet_4
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 720
+        width: 36
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467fe9052c1c41d4096ab1888f0485e9
+      internalID: 1807865870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beside Table_Dresser_Closet_5
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 722
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c629b5d7041c16940b2d3075fe631f10
+      internalID: 894820451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beside Table_Dresser_Closet_6
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 720
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1bc26d59a8037c44ae8b64d66fc89e7
+      internalID: 1248917117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beside Table_Dresser_Closet_7
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 720
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0415f6537e8ad5f4da414fe6d63ce394
+      internalID: -2073540557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beside Table_Dresser_Closet_8
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 720
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84076887291afb342abb89fa86e7fe81
+      internalID: -988443016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beside Table_Dresser_Closet_9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 624
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e108f27b12c24c940b90e2e0059e36b6
+      internalID: -299668449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beside Table_Dresser_Closet_10
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 624
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 835d9b7cf27dacd45b61139510ed2c3e
+      internalID: 1451513255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beside Table_Dresser_Closet_11
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 624
+        width: 94
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14cb2cdb6423b954a83efd8a6081f252
+      internalID: -971232825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beside Table_Dresser_Closet_12
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 624
+        width: 89
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e74ef844c51d3a4ea82989b2c67dec9
+      internalID: 546732202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beside Table_Dresser_Closet_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 573
+        width: 345
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd8e49db936ce664db2603a905037f08
+      internalID: -1448013977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beside Table_Dresser_Closet_14
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 480
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 881a5eee77bb0a04ab786a3f410c1307
+      internalID: -214988671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beside Table_Dresser_Closet_15
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 480
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71e9b13d7c63f3249a453a0dc4f90b08
+      internalID: 1708064541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beside Table_Dresser_Closet_16
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 480
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce36e3a85f9337b4cb70e9ff0c7a28f7
+      internalID: -944076299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beside Table_Dresser_Closet_17
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 480
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a39b52f13da38984db960cff0216e334
+      internalID: 230880368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beside Table_Dresser_Closet_18
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 480
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5afaa624125cae443bcc7108820b6588
+      internalID: 1908525695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beside Table_Dresser_Closet_19
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 480
+        width: 42
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8449e61bfa711bc4588fd731ea923357
+      internalID: -455633304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beside Table_Dresser_Closet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 455
+        width: 435
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb63971a3e41e014193ecc0f5a14945a
+      internalID: 861551535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beside Table_Dresser_Closet_21
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 336
+        width: 97
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5159015fb9ac1d442b44310bdfd9c284
+      internalID: 285430157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beside Table_Dresser_Closet_22
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 336
+        width: 142
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef40e8187fe96744da5cbe0e97740cf7
+      internalID: -1688891575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beside Table_Dresser_Closet_23
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 336
+        width: 94
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b10139a9b5e22a4dafdb5179758ac2c
+      internalID: -689314247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beside Table_Dresser_Closet_24
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 192
+        width: 48
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e363b2cc7c525d1439b368317b8274c7
+      internalID: 1303317457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beside Table_Dresser_Closet_25
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 192
+        width: 79
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3883329c382ecef48b12f883beee2332
+      internalID: -1312906985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beside Table_Dresser_Closet_26
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 192
+        width: 97
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 005af32ea2bb67e4faaaaabd811a2d04
+      internalID: 1491066545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beside Table_Dresser_Closet_27
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 48
+        width: 131
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7de1d044de0d0a4a9b59acf956926a0
+      internalID: -1281511939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beside Table_Dresser_Closet_28
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 48
+        width: 131
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b958d30f4732ff4ca33942a11b6bdc7
+      internalID: -1970386442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beside Table_Dresser_Closet_29
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 48
+        width: 129
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26da5d3621fa0b24381bc5c9ea4cf0da
+      internalID: -1744152607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beside Table_Dresser_Closet_30
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 48
+        width: 129
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4520ff95263c34d4bb8289ff83ea1596
+      internalID: -1694643479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beside Table_Dresser_Closet_31
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 48
+        width: 129
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a5657c04c4caa04ab4e78d5fde225e3
+      internalID: 1783417636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Beside Table_Dresser_Closet_9: -299668449
+      Beside Table_Dresser_Closet_2: 1373959937
+      Beside Table_Dresser_Closet_15: 1708064541
+      Beside Table_Dresser_Closet_31: 1783417636
+      Beside Table_Dresser_Closet_11: -971232825
+      Beside Table_Dresser_Closet_10: 1451513255
+      Beside Table_Dresser_Closet_28: -1970386442
+      Beside Table_Dresser_Closet_1: 704615667
+      Beside Table_Dresser_Closet_21: 285430157
+      Beside Table_Dresser_Closet_3: 105727
+      Beside Table_Dresser_Closet_0: -22137894
+      Beside Table_Dresser_Closet_7: -2073540557
+      Beside Table_Dresser_Closet_13: -1448013977
+      Beside Table_Dresser_Closet_19: -455633304
+      Beside Table_Dresser_Closet_30: -1694643479
+      Beside Table_Dresser_Closet_14: -214988671
+      Beside Table_Dresser_Closet_25: -1312906985
+      Beside Table_Dresser_Closet_24: 1303317457
+      Beside Table_Dresser_Closet_17: 230880368
+      Beside Table_Dresser_Closet_4: 1807865870
+      Beside Table_Dresser_Closet_12: 546732202
+      Beside Table_Dresser_Closet_23: -689314247
+      Beside Table_Dresser_Closet_27: -1281511939
+      Beside Table_Dresser_Closet_20: 861551535
+      Beside Table_Dresser_Closet_26: 1491066545
+      Beside Table_Dresser_Closet_18: 1908525695
+      Beside Table_Dresser_Closet_22: -1688891575
+      Beside Table_Dresser_Closet_8: -988443016
+      Beside Table_Dresser_Closet_16: -944076299
+      Beside Table_Dresser_Closet_6: 1248917117
+      Beside Table_Dresser_Closet_29: -1744152607
+      Beside Table_Dresser_Closet_5: 894820451
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

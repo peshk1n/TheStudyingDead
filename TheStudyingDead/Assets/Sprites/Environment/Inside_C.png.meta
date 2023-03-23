@@ -570,10 +570,10 @@ TextureImporter:
       name: Inside_C_22
       rect:
         serializedVersion: 2
-        x: 157
+        x: 161
         y: 497
-        width: 111
-        height: 68
+        width: 104
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

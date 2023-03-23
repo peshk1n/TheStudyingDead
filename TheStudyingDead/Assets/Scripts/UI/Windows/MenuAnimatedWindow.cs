@@ -21,13 +21,18 @@ public class MenuAnimatedWindow : MonoBehaviour
     public void Close()
     {
         _animator.SetTrigger("Close");
+        Time.timeScale = 1;
     }
 
     public void OpenMenu()
     {
         if (_panel.alpha == 1)
-            Close();
-        else _animator.SetTrigger("Show");
+        { Close(); Time.timeScale = 1; }
+        else
+        {
+            _animator.SetTrigger("Show");
+            Time.timeScale = 0;
+        }
     }
 
     public void OnContinue()
