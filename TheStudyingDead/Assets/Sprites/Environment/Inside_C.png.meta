@@ -2885,7 +2885,7 @@ TextureImporter:
         width: 11
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2893,6 +2893,132 @@ TextureImporter:
       bones: []
       spriteID: b2af437ae6e7b8341b0af30f7c94240c
       internalID: -925211125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside_C_133
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 215
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b71f2dd3593b27741a95a31abcdad019
+      internalID: 214996716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside_C_134
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 204
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4836c55d8482cdb4aa8ab63289a2fbc6
+      internalID: 1881804214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside_C_135
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 437
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e9ac0d005bfb6b41aedc7f7c0182c9d
+      internalID: 175304142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside_C_136
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 438
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e48453864fd5a245a694f4f2ac021ab
+      internalID: 1673863595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside_C_137
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 439
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de3511c00da2314f9b58079f75259af
+      internalID: -513729605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside_C_138
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 438
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf102493a5b2024fb62d0ba2e757088
+      internalID: 1748405228
       vertices: []
       indices: 
       edges: []
@@ -2932,6 +3058,7 @@ TextureImporter:
       Inside_C_78: -1829724193
       Inside_C_61: 911889204
       Inside_C_79: -1131903446
+      Inside_C_133: 214996716
       Inside_C_60: 1969592126
       Inside_C_104: 780822756
       Inside_C_126: -573146827
@@ -2962,6 +3089,8 @@ TextureImporter:
       Inside_C_38: 999774665
       Inside_C_86: -1908631882
       Inside_C_102: 648147912
+      Inside_C_138: 1748405228
+      Inside_C_136: 1673863595
       Inside_C_129: -379783119
       Inside_C_123: 2081086406
       Inside_C_118: -1457405167
@@ -2993,6 +3122,7 @@ TextureImporter:
       Inside_C_48: -261168227
       Inside_C_74: -144030570
       Inside_C_128: 1402224801
+      Inside_C_137: -513729605
       Inside_C_94: -1644635038
       Inside_C_58: 2021023395
       Inside_C_4: 1741664865
@@ -3038,7 +3168,9 @@ TextureImporter:
       Inside_C_113: -726829852
       Inside_C_18: -1118221176
       Inside_C_85: -1813699411
+      Inside_C_135: 175304142
       Inside_C_107: 1253808222
+      Inside_C_134: 1881804214
       Inside_C_57: -1095448921
       Inside_C_121: -783223339
   spritePackingTag: 
