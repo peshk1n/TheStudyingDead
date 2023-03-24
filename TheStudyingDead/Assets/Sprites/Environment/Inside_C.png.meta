@@ -2876,6 +2876,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Inside_C_132
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 218
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2af437ae6e7b8341b0af30f7c94240c
+      internalID: -925211125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -2953,6 +2974,7 @@ TextureImporter:
       Inside_C_119: 1139124761
       Inside_C_54: 1428462914
       Inside_C_62: -230558153
+      Inside_C_132: -600906893
       Inside_C_10: -1338556650
       Inside_C_111: -1390278130
       Inside_C_100: -79500592
