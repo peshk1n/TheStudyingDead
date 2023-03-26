@@ -7710,7 +7710,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55feb96986b14ea45a06586f47467f6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _tooltip: {fileID: 954586228}
+  _tooltip: {fileID: 954586229}
 --- !u!1 &653102210 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7575616383586808803, guid: 2c512bfd4fa62de4f96d3fb48f95dde2, type: 3}
@@ -16297,6 +16297,7 @@ GameObject:
   m_Component:
   - component: {fileID: 954586227}
   - component: {fileID: 954586228}
+  - component: {fileID: 954586229}
   m_Layer: 5
   m_Name: Callboard
   m_TagString: Untagged
@@ -16334,10 +16335,25 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 954586226}
   m_Enabled: 1
-  m_Alpha: 0
+  m_Alpha: 1
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!114 &954586229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 954586226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a13e22eb70ec8df4c8bf7b5341e0bf1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _this: {fileID: 954586226}
+  _inventoryAnimatedWindow: {fileID: 128423561}
+  _menuAnimatedWindow: {fileID: 1403650270}
 --- !u!1 &957418387
 GameObject:
   m_ObjectHideFlags: 0
@@ -18781,7 +18797,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.52626675, y: 0.65939647}
   m_AnchorMax: {x: 0.8376334, y: 0.74600005}
-  m_AnchoredPosition: {x: -0.605278, y: -1.1000061}
+  m_AnchoredPosition: {x: -0.60528564, y: -1.1000061}
   m_SizeDelta: {x: -2.3724976, y: -3.6019897}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1111042181
@@ -21775,8 +21791,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 652208364}
-        m_TargetAssemblyTypeName: Callboard, Assembly-CSharp
+      - m_Target: {fileID: 954586229}
+        m_TargetAssemblyTypeName: BoardWindow, Assembly-CSharp
         m_MethodName: Close
         m_Mode: 1
         m_Arguments:
@@ -32937,6 +32953,10 @@ PrefabInstance:
       propertyPath: _menuWindow
       value: 
       objectReference: {fileID: 1403650270}
+    - target: {fileID: 7575616383586808733, guid: 2c512bfd4fa62de4f96d3fb48f95dde2, type: 3}
+      propertyPath: _boardWindow
+      value: 
+      objectReference: {fileID: 954586229}
     - target: {fileID: 7575616383586808733, guid: 2c512bfd4fa62de4f96d3fb48f95dde2, type: 3}
       propertyPath: _inventoryWindow
       value: 

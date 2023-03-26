@@ -9,6 +9,9 @@ public class InventoryAnimatedWindow : AnimatedWindow
     
     private Canvas _inventoryCanvas;
 
+    private bool _isOpen;
+    public bool IsOpen { get { return _isOpen; } }
+
     void Start()
     {
         _inventoryCanvas = GetComponent<Canvas>();
@@ -16,15 +19,19 @@ public class InventoryAnimatedWindow : AnimatedWindow
         
         _inventory.SetActive(false);
         _tasks.SetActive(false);
+
+        _isOpen = false;
     }
 
     public void OpenNotebook()
     {
         _inventoryCanvas.enabled = !_inventoryCanvas.enabled;
+        _isOpen = !_isOpen;
         if (!_inventoryCanvas.enabled)
         {
             _tasks.SetActive(false);
             _inventory.SetActive(false);
+            _isOpen = false;
         }
     }
 
@@ -33,6 +40,8 @@ public class InventoryAnimatedWindow : AnimatedWindow
         _inventoryCanvas.enabled = false;
         _tasks.SetActive(false);
         _inventory.SetActive(false);
+        _isOpen = false;
+
     }
     public void OnShowInventory()
     {   

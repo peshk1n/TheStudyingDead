@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class Callboard : MonoBehaviour
 {
-    [SerializeField] CanvasGroup _tooltip;
+    [SerializeField] BoardWindow _tooltip;
 
     public void Open()
     {
-        _tooltip.alpha = 1;
+        _tooltip.Open();
     }
 
     public void Close()
     {
-        _tooltip.alpha = 0;
+        _tooltip.Close();
     }
 }

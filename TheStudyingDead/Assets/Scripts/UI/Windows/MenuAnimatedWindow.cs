@@ -11,17 +11,22 @@ public class MenuAnimatedWindow : MonoBehaviour
     private Animator _animator;
     private Action _closeAction;
 
+    private bool _isOpen;
+    public bool IsOpen { get { return _isOpen; } }
+
     void Start()
     {
         _panel= GetComponent<CanvasGroup>();
         _animator = GetComponent<Animator>();
         _animator.SetTrigger("Normal");
+        _isOpen = false;
     }
 
     public void Close()
     {
         _animator.SetTrigger("Close");
         Time.timeScale = 1;
+        _isOpen = false;
     }
 
     public void OpenMenu()
@@ -30,6 +35,7 @@ public class MenuAnimatedWindow : MonoBehaviour
         { Close(); Time.timeScale = 1; }
         else
         {
+            _isOpen = true;
             _animator.SetTrigger("Show");
             Time.timeScale = 0;
         }

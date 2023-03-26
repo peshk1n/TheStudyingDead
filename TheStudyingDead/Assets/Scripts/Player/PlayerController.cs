@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Lantern _lantern;
     [SerializeField] private InventoryAnimatedWindow _inventoryWindow;
     [SerializeField] private MenuAnimatedWindow _menuWindow;
+    [SerializeField] private BoardWindow _boardWindow;
 
 
     private PlayerInput _playerInput;
@@ -69,12 +70,14 @@ public class PlayerController : MonoBehaviour
     public void OnOpenNotebook()
     {
         _menuWindow.Close();
+        _boardWindow.Close();
         _inventoryWindow.OpenNotebook();
     }
 
     public void OnOpenMenu()
     {
         _inventoryWindow.CloseNotebook();
+        _boardWindow.Close();
         _menuWindow.OpenMenu();
     }
 }
