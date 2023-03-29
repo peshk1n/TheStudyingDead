@@ -50,8 +50,12 @@ public class Player : MonoBehaviour
         _money += coins;
     }
 
-    public void SpendMoney(int coins)
+    public bool SpendMoney(int coins)
     {
-        if (_money>=coins) _money -= coins;
+        if (_money >= coins)
+        {
+            _money -= coins; return true;
+        }
+        else return false;
     }
 }
