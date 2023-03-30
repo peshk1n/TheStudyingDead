@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class DialogManager : MonoBehaviour
@@ -10,21 +11,29 @@ public class DialogManager : MonoBehaviour
     public TextMeshProUGUI dialogText;
     public Animator animator;
 
-    private Queue<string> sentences;
+    private Queue<string> _sentences;
+    private Queue<string> _name;
+
+    [SerializeField] private UnityEvent _action;
     void Start()
     {
-        sentences = new Queue<string>();   
+        _sentences = new Queue<string>();
+        _name = new Queue<string>();
     }
 
     public void StartDialogue(Dialogue dialogue) 
     {
         GameObject.Find("CanvasDialogue").GetComponent<CanvasGroup>().alpha = 1f;
         animator.SetBool("IsOpen", true);
-        nameText.text = dialogue.name;
-        sentences.Clear();
+        _sentences.Clear();
+        _name.Clear();
         foreach (string x in dialogue.sentences) 
         {
-            sentences.Enqueue(x);
+            _sentences.Enqueue(x);
+        }
+        foreach (string x in dialogue.name)
+        {
+            _name.Enqueue(x);
         }
 
         ShowNextSentences();
@@ -33,24 +42,27 @@ public class DialogManager : MonoBehaviour
     public void ShowNextSentences() 
     {
         
-        if (sentences.Count == 0) 
+        if (_sentences.Count == 0) 
         {
             EndDialogue();
+            _action.Invoke();
             return;
         }
-        string sent = sentences.Dequeue();
+        string sent = _sentences.Dequeue();
+        string name = _name.Dequeue();
         StopAllCoroutines();
-        StartCoroutine(TypeSentence(sent));
+        StartCoroutine(TypeSentence(sent, name));
 
     }
 
-    IEnumerator TypeSentence(string sentence) 
+    IEnumerator TypeSentence(string sentence_, string name_)
     {
         dialogText.text = "";
-        foreach(char x in sentence.ToCharArray())
+        nameText.text = name_;
+        foreach(char x in sentence_.ToCharArray())
         {
             dialogText.text += x;
-            for(int i = 0; i <= 2;i++)
+            for(int i = 0; i <= 3;i++)
             {
                 yield return null;
             }
@@ -64,10 +76,10 @@ public class DialogManager : MonoBehaviour
         animator.SetBool("IsOpen", false);
     }
 
-    [SerializeField] private Dialogue _testD;
-    public void Test()
-    {
-        StartDialogue(_testD);
-    }
+    //[SerializeField] private Dialogue _testD;
+    //public void Test()
+    //{
+    //    StartDialogue(_testD);
+    //}
 
 }
