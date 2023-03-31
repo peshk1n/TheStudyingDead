@@ -9,7 +9,6 @@ public class Shop : MonoBehaviour
     [SerializeField] private int _price;
     [SerializeField] private Item _item;
     
-
     private Player player;
     private Inventory inventory;
 
@@ -29,4 +28,11 @@ public class Shop : MonoBehaviour
         _tooltip.OpenShop();
     }
 
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            if (_tooltip.isOpenShop) _tooltip.OpenShop();
+        }
+    }
 }

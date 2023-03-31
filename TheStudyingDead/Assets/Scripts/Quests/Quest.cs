@@ -8,7 +8,7 @@ public class Quest : MonoBehaviour
 {
     [SerializeField] protected string _name;
     [SerializeField] protected string _description;
-    public bool _isFinish=false;
+    private bool _isFinish=false;
 
     public bool IsFinish => _isFinish;
     public string Name => _name;
