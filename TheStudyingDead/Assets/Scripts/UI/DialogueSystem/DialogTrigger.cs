@@ -1,13 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class DialogTrigger : MonoBehaviour
 {
+    [SerializeField] private UnityEvent _action;
     [SerializeField] private Dialogue _bound;
     [SerializeField] private Mode _mode;
     [SerializeField] private DialogDef _external;
+   
 
     private DialogManager _manager;
 
@@ -37,7 +40,9 @@ public class DialogTrigger : MonoBehaviour
     {
         if (_manager == null)
             _manager = FindObjectOfType<DialogManager>();
-        _manager.StartDialogue(Dialogue);
+        _manager.StartDialogue(Dialogue,_action);
+
+
 
     }
     public void TriggerDialogue(DialogDef def)
@@ -49,7 +54,7 @@ public class DialogTrigger : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
-            FindObjectOfType<DialogManager>().StartDialogue(Dialogue);
+            FindObjectOfType<DialogManager>().StartDialogue(Dialogue,_action);
 
     }
     private void OnTriggerExit2D(Collider2D collision)
@@ -58,5 +63,16 @@ public class DialogTrigger : MonoBehaviour
             FindObjectOfType<DialogManager>().EndDialogue();
 
     }
+    
+    public void DeleteObject()
+    {
+        Destroy(gameObject);
+    }
+
+    public void DeleteDialogue()
+    {
+        Destroy(gameObject.GetComponent<DialogTrigger>());
+    }
+
 }
 

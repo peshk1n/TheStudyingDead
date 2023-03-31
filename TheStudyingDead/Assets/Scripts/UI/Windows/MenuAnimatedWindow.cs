@@ -18,6 +18,8 @@ public class MenuAnimatedWindow : MonoBehaviour
     {
         _panel= GetComponent<CanvasGroup>();
         _animator = GetComponent<Animator>();
+        //_animator.SetTrigger("Show");
+        Close();
         _animator.SetTrigger("Normal");
         _isOpen = false;
     }

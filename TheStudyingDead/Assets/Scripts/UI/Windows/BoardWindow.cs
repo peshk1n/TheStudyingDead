@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class BoardWindow : MonoBehaviour
@@ -12,8 +13,12 @@ public class BoardWindow : MonoBehaviour
     [SerializeField] MenuAnimatedWindow _menuAnimatedWindow;
     [SerializeField] private TMP_Text _text;
 
+    [SerializeField] private GameObject exp;
+    [SerializeField] private GameObject dialog;
+
     private void Start()
     {
+        
         _this.SetActive(false);
         _shop.alpha = 0;
         _board.alpha = 0;
@@ -38,15 +43,26 @@ public class BoardWindow : MonoBehaviour
     public void OpenBoard()
     {
         Open();
-        if (_board.alpha==1) _board.alpha=0;
-        else _board.alpha=1;
+        if (_board.alpha == 1)
+        {
+            _board.alpha = 0;
+            Close();
+            if (exp != null) exp.SetActive(true);
+            //if (exp != null) { exp.enabled = true;
+
+            //}
+        }
+        else _board.alpha = 1;
     }
 
     public void OpenShop()
     {
         Open();
-        if (_shop.alpha == 1) { _shop.alpha = 0; CloseMessage(); }
-        else _shop.alpha = 1;
+        if (_shop.alpha == 1) { _shop.alpha = 0; Close(); CloseMessage(); }
+        else
+        {
+            _shop.alpha = 1;
+        }
     }
 
     public void ShowMessage()

@@ -14,15 +14,16 @@ public class DialogManager : MonoBehaviour
     private Queue<string> _sentences;
     private Queue<string> _name;
 
-    [SerializeField] private UnityEvent _action;
+    private UnityEvent _action;
     void Start()
     {
         _sentences = new Queue<string>();
         _name = new Queue<string>();
     }
 
-    public void StartDialogue(Dialogue dialogue) 
+    public void StartDialogue(Dialogue dialogue, UnityEvent action) 
     {
+        _action = action;
         GameObject.Find("CanvasDialogue").GetComponent<CanvasGroup>().alpha = 1f;
         animator.SetBool("IsOpen", true);
         _sentences.Clear();

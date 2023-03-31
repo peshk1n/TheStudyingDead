@@ -28,6 +28,7 @@ public class DialogTriggerEditor : UnityEditor.Editor
                     EditorGUILayout.PropertyField(serializedObject.FindProperty("_external"));
                     break;
             }
+            EditorGUILayout.PropertyField(serializedObject.FindProperty("_action"));
         }
         serializedObject.ApplyModifiedProperties();
     }
