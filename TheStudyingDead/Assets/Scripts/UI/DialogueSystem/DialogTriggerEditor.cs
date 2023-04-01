@@ -1,13 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor;
+//using UnityEditor;
 using UnityEngine;
+#if UNITY_EDITOR
+using UnityEditor;
 
 
-[CustomEditor(typeof(DialogTrigger))]
+[UnityEditor.CustomEditor(typeof(DialogTrigger))]
 public class DialogTriggerEditor : UnityEditor.Editor
 {
-    private SerializedProperty _modeProperty;
+    private UnityEditor.SerializedProperty _modeProperty;
 
     private void OnEnable()
     {
@@ -37,7 +39,7 @@ public class DialogTriggerEditor : UnityEditor.Editor
 
 public static class SerializedPropertyExtensions
 {
-    public static bool GetEnum<TEnumType>(this SerializedProperty property, out TEnumType value)
+    public static bool GetEnum<TEnumType>(this UnityEditor.SerializedProperty property, out TEnumType value)
     where TEnumType : System.Enum
     {
         value = default;
@@ -49,3 +51,4 @@ public static class SerializedPropertyExtensions
         return true;
     }
 }
+#endif
