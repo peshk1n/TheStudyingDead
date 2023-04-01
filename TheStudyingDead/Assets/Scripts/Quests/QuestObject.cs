@@ -13,6 +13,11 @@ public class QuestObject : MonoBehaviour
     [SerializeField] List<GameObject> _offObjects;
     [SerializeField] List<Collider2D> _offColliders;
 
+    private Player _player;
+    private void Start()
+    {
+        _player = FindObjectOfType<Player>();
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -35,7 +40,7 @@ public class QuestObject : MonoBehaviour
         gameObject.active = false;
     }
 
-    public void ChangeAvailableObject()
+    public void AvailableObj()
     {
         foreach (GameObject obj in _activeObjects)
         {
@@ -43,9 +48,9 @@ public class QuestObject : MonoBehaviour
         }
         foreach (GameObject obj in _offObjects)
         {
-            if (obj!=null) obj?.SetActive(false);
+            if (obj != null) obj?.SetActive(false);
         }
-        foreach(Collider2D collider in _offColliders)
+        foreach (Collider2D collider in _offColliders)
         {
             if (collider != null) collider.enabled = false;
         }
@@ -53,7 +58,28 @@ public class QuestObject : MonoBehaviour
         {
             if (collider != null) collider.enabled = true;
         }
+    }
+
+    public void ChangeAvailableObject()
+    {
+        Invoke("AvailableObj", 2);
         //Destroy(gameObject);
     }
 
+    public bool CheckInventory(Item item)
+    {
+        if (_player.GetComponent<Inventory>().Contain(item))
+            return true;
+        else return false;
+    }
+
+    public void FinishIfHasItem(Item item)
+    {
+        if (CheckInventory(item))
+        {
+            _quest.FinishQuest();
+            AvailableObj();
+        }
+
+    }
 }
