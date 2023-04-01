@@ -1,3 +1,4 @@
+using UnityEditor.Animations;
 using UnityEngine;
 
 [RequireComponent(typeof(Animator))]
@@ -9,11 +10,14 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private InventoryAnimatedWindow _inventoryWindow;
     [SerializeField] private MenuAnimatedWindow _menuWindow;
     [SerializeField] private BoardWindow _boardWindow;
+    [SerializeField] private AnimatorController _armed;
+    [SerializeField] private AnimatorController _unarmed;
 
 
     private PlayerInput _playerInput;
     private string _directionState = RIGHT;
     private Animator _animatorController;
+    private bool _isArmed = false;
 
     private PlayerMover _playerMover;
     private PlayerInteraction _playerInteraction;
@@ -79,5 +83,23 @@ public class PlayerController : MonoBehaviour
         _inventoryWindow.CloseNotebook();
         _boardWindow.Close();
         _menuWindow.OpenMenu();
+    }
+
+    public void Attack()
+    {
+        if (!_isArmed)
+            return;
+    }
+
+    public void ArmPlayer()
+    {
+        _isArmed = true;
+        _animatorController.runtimeAnimatorController = _armed;
+    }
+
+    public void DisarmPlayer()
+    {
+        _isArmed = false;
+        _animatorController.runtimeAnimatorController = _unarmed;
     }
 }

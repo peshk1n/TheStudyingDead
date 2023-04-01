@@ -4935,7 +4935,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.030264832, y: 0.7368965}
   m_AnchorMax: {x: 0.9594902, y: 0.99500006}
-  m_AnchoredPosition: {x: 14.000015, y: -412.4999}
+  m_AnchoredPosition: {x: 14.000046, y: -412.4999}
   m_SizeDelta: {x: 13.293396, y: 814.127}
   m_Pivot: {x: 0.5, y: 0.50000006}
 --- !u!114 &307970823
@@ -38236,9 +38236,17 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7575616383586808733, guid: 2c512bfd4fa62de4f96d3fb48f95dde2, type: 3}
+      propertyPath: _armed
+      value: 
+      objectReference: {fileID: 9100000, guid: 7a21c444fe51e3649b4bbda5897cf1de, type: 2}
+    - target: {fileID: 7575616383586808733, guid: 2c512bfd4fa62de4f96d3fb48f95dde2, type: 3}
       propertyPath: _lantern
       value: 
       objectReference: {fileID: 816084521}
+    - target: {fileID: 7575616383586808733, guid: 2c512bfd4fa62de4f96d3fb48f95dde2, type: 3}
+      propertyPath: _unarmed
+      value: 
+      objectReference: {fileID: 9100000, guid: b13d6afd8ff695346bb8e1fca8ddab09, type: 2}
     - target: {fileID: 7575616383586808733, guid: 2c512bfd4fa62de4f96d3fb48f95dde2, type: 3}
       propertyPath: _menuWindow
       value: 
@@ -38251,6 +38259,10 @@ PrefabInstance:
       propertyPath: _inventoryWindow
       value: 
       objectReference: {fileID: 128423561}
+    - target: {fileID: 7575616383586808735, guid: 2c512bfd4fa62de4f96d3fb48f95dde2, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: b13d6afd8ff695346bb8e1fca8ddab09, type: 2}
     - target: {fileID: 7575616383586808803, guid: 2c512bfd4fa62de4f96d3fb48f95dde2, type: 3}
       propertyPath: m_Name
       value: Player
