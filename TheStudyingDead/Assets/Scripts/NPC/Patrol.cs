@@ -16,27 +16,18 @@ public class Patrol : MonoBehaviour
         _mover = GetComponent<CharacterMover>();
     }
 
-    public IEnumerator DoPatrol()
+    private void Update()
     {
-        while (enabled)
+        if ((_targetPoints[_currentPoint].position - transform.position).magnitude < _treshold)
         {
-            if ((_targetPoints[_currentPoint].position - transform.position).magnitude < _treshold)
+            _currentPoint++;
+            if (_currentPoint >= _targetPoints.Length)
             {
-                _currentPoint++;
-                if (_currentPoint >= _targetPoints.Length)
-                {
-                    _currentPoint = 0;
-                }
+                _currentPoint = 0;
             }
-
-            Vector3 direction = (_targetPoints[_currentPoint].position - transform.position).normalized;
-            _mover.Move(direction);
-            yield return null;
         }
-    }
 
-/*    private void Update()
-    {
-        DoPatrol();
-    }*/
+        Vector3 direction = (_targetPoints[_currentPoint].position - transform.position).normalized;
+        _mover.Move(direction);
+    }
 }

@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -42,12 +42,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -103,7 +103,49 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: zombie_atk2_15
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 130
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ee3dd5f6260e6641bba4a702a6753d9
+      internalID: -1376106663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_atk2_16
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 130
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2efc220c80b22b40b897ada0660d2a9
+      internalID: -2109098918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -114,7 +156,36 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      zombie_atk2_5: 1707160069
+      zombie_atk2_0: 1287481560
+      zombie_atk2_8: -105772983
+      zombie_atk2_10: -1280110832
+      zombie_atk2_9: -667764110
+      zombie_atk2_26: 831461005
+      zombie_atk2_3: 667112483
+      zombie_atk2_15: -1376106663
+      zombie_atk2_4: 199547184
+      zombie_atk2_12: -395128893
+      zombie_atk2_1: -20845112
+      zombie_atk2_6: -1317165495
+      zombie_atk2_25: 1500737748
+      zombie_atk2_24: 514601897
+      zombie_atk2_27: -1213474393
+      zombie_atk2_14: 2027482748
+      zombie_atk2_19: -1010954721
+      zombie_atk2_21: 1240301318
+      zombie_atk2_2: -1146767053
+      zombie_atk2_16: -2109098918
+      zombie_atk2_23: 824427773
+      zombie_atk2_7: 137399112
+      zombie_atk2_22: -1368308885
+      zombie_atk2_28: -2062926000
+      zombie_atk2_11: 106801210
+      zombie_atk2_17: 876049407
+      zombie_atk2_13: 1379736577
+      zombie_atk2_20: -1093460064
+      zombie_atk2_18: 1470851091
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
