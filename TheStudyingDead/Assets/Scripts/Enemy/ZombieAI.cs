@@ -19,6 +19,7 @@ public class ZombieAI : MonoBehaviour
     private Animator _animator;
     private ModifyHealthComponent _damageComponent;
     private HealthComponent _hp;
+    private Collider2D _collider;
 
     private void Start()
     {
@@ -93,8 +94,12 @@ public class ZombieAI : MonoBehaviour
 
     public void Die()
     {
-        Discard();
-        _zombieController.Die();
-        //_isDead = true;
+        _rigidbody.velocity = Vector2.zero;
+        _collider.enabled = false;
+        _animator.SetTrigger("Die");
+        _isDead = true;
+
+        if (_current != null)
+            StopCoroutine(_current);
     }
 }
