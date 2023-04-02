@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(Animator))]
-[RequireComponent(typeof(CharacterMover))]
 public class ZombieAI : MonoBehaviour
 {
     [SerializeField] private Player _target;
@@ -17,14 +16,12 @@ public class ZombieAI : MonoBehaviour
     private Coroutine _current;
     private bool _isDead = false;
 
-    private Patrol _patrol;
     private Animator _animator;
     private ModifyHealthComponent _damageComponent;
     private HealthComponent _hp;
 
     private void Start()
     {
-        _patrol = GetComponent<Patrol>();
         _animator = GetComponent<Animator>();
         _damageComponent = GetComponent<ModifyHealthComponent>();
         _hp = GetComponent<HealthComponent>();
