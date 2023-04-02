@@ -12,15 +12,18 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private BoardWindow _boardWindow;
     [SerializeField] private RuntimeAnimatorController _armed;
     [SerializeField] private RuntimeAnimatorController _unarmed;
+    [SerializeField] private float _attackDeley;
 
-
+    private Rigidbody2D _rigidbody;
     private PlayerInput _playerInput;
     private string _directionState = RIGHT;
     private Animator _animatorController;
     private bool _isArmed = false;
+    private bool _isAttacking = false;
 
     private PlayerMover _playerMover;
     private PlayerInteraction _playerInteraction;
+    private PlayerAttack _playerAttack;
 
     public bool IsArmed => _isArmed;
     public const string UP = "Up";
@@ -36,11 +39,13 @@ public class PlayerController : MonoBehaviour
         _playerInput.Player.Lantern.performed += ctx => OnLanternEnable();
         _playerInput.Player.OpenNotebook.performed += ctx => OnOpenNotebook();
         _playerInput.Player.OpenMenu.performed += ctx => OnOpenMenu();
+        _playerInput.Player.Attack.performed += ctx => Attack();
 
-
+        _rigidbody = GetComponent<Rigidbody2D>();
         _animatorController = GetComponent<Animator>();
         _playerMover = GetComponent<PlayerMover>();
         _playerInteraction = GetComponent<PlayerInteraction>();
+        _playerAttack = GetComponent<PlayerAttack>();
     }
 
     private void OnEnable()
@@ -55,8 +60,10 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Vector2 moveDirection = _playerInput.Player.Move.ReadValue<Vector2>();
-        _playerMover.Move(moveDirection);
+        if (!_isAttacking) {
+            Vector2 moveDirection = _playerInput.Player.Move.ReadValue<Vector2>();
+            _playerMover.Move(moveDirection);
+        }
     }
 
     public void OnInteract()
@@ -90,8 +97,24 @@ public class PlayerController : MonoBehaviour
 
     public void Attack()
     {
+        if (!_isAttacking)
+        {
+            _isAttacking = true;
+            _playerAttack.Attack();
+            _rigidbody.velocity = Vector2.zero;
+            _animatorController.Play($"Attack Idle {_directionState}");
+            //float attackDeley = (float)_animatorController.GetCurrentAnimatorClipInfo(0).Length / 3.0f;
+            Invoke("Attack—omplete", _attackDeley);
+        }
+
+
         if (!_isArmed)
             return;
+    }
+
+    private void Attack—omplete()
+    {
+        _isAttacking = false;
     }
 
     public void ArmPlayer()
