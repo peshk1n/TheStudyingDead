@@ -24,15 +24,15 @@ public class Slot : MonoBehaviour
         {
             if (i == ind)
             {
-                if (!_inventory.GetItem(i).isQuestItem)
+                if (_inventory.GetItem(i)!=null&&!_inventory.GetItem(i).isQuestItem && _inventory.GetAmount(i) > 0)
                 {
-                    if (_inventory.GetItem(i) as FoodItem && _inventory.GetAmount(i) > 0)
+                    if (_inventory.GetItem(i) as FoodItem)
                     {
                         var item = (FoodItem)_inventory.GetItem(i);
                         player.ModifyHealth((int)item.healthImprov);
                         _inventory.DeleteItem(_inventory.GetItem(i));
                     }
-                    if (_inventory.GetItem(i) as WeaponItem && _inventory.GetAmount(i) > 0)
+                    if (_inventory.GetItem(i) as WeaponItem)
                     {
                         var item = (WeaponItem)_inventory.GetItem(i);
                         if (!player.GetComponent<PlayerController>().IsArmed) 

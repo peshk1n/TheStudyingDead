@@ -20,7 +20,7 @@ public class MenuAnimatedWindow : MonoBehaviour
         _animator = GetComponent<Animator>();
         //_animator.SetTrigger("Show");
         Close();
-        _animator.SetTrigger("Normal");
+        //_animator.SetTrigger("Normal");
         _isOpen = false;
     }
 

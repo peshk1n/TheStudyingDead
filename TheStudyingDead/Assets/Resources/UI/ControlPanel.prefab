@@ -262,8 +262,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3682365998245610562}
-        m_TargetAssemblyTypeName: MenuAnimatedWindow, Assembly-CSharp
+      - m_Target: {fileID: 1135901756316685446}
+        m_TargetAssemblyTypeName: OptionsPanel, Assembly-CSharp
         m_MethodName: Close
         m_Mode: 1
         m_Arguments:
@@ -440,8 +440,8 @@ GameObject:
   - component: {fileID: 2951015996559863557}
   - component: {fileID: 2951015996559863559}
   - component: {fileID: 2951015996559863556}
-  - component: {fileID: 3682365998245610562}
   - component: {fileID: 3113359123463681870}
+  - component: {fileID: 1135901756316685446}
   m_Layer: 5
   m_Name: ControlPanel
   m_TagString: Untagged
@@ -510,18 +510,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &3682365998245610562
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2951015996559863554}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a9660a2553ae82f41a64baf066a69c79, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!95 &3113359123463681870
 Animator:
   serializedVersion: 4
@@ -534,7 +522,7 @@ Animator:
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: add7d81ad7cdeca4d9420c834faf5985, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 0
+  m_UpdateMode: 2
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
@@ -542,6 +530,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1135901756316685446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2951015996559863554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a84cbef9b02cbe7478829d1da0bc875a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2951015996845744684
 GameObject:
   m_ObjectHideFlags: 0

@@ -124,8 +124,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 747170854692060955}
-        m_TargetAssemblyTypeName: MenuAnimatedWindow, Assembly-CSharp
+      - m_Target: {fileID: 8200477932763187191}
+        m_TargetAssemblyTypeName: OptionsPanel, Assembly-CSharp
         m_MethodName: Close
         m_Mode: 1
         m_Arguments:
@@ -1190,7 +1190,7 @@ GameObject:
   - component: {fileID: 7131969770969833535}
   - component: {fileID: 7131969770969833532}
   - component: {fileID: 116716558983904214}
-  - component: {fileID: 747170854692060955}
+  - component: {fileID: 8200477932763187191}
   m_Layer: 5
   m_Name: OptionsPanel
   m_TagString: Untagged
@@ -1271,7 +1271,7 @@ Animator:
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: add7d81ad7cdeca4d9420c834faf5985, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 0
+  m_UpdateMode: 2
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
@@ -1279,7 +1279,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &747170854692060955
+--- !u!114 &8200477932763187191
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1288,7 +1288,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7131969770969833530}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a9660a2553ae82f41a64baf066a69c79, type: 3}
+  m_Script: {fileID: 11500000, guid: a84cbef9b02cbe7478829d1da0bc875a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &7131969771118307269
