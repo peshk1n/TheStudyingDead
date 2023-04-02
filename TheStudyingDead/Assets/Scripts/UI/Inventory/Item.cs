@@ -7,4 +7,5 @@ public class Item : ScriptableObject
 {
     public string id;
     public Sprite icon;
+    public bool isQuestItem=false;
 }

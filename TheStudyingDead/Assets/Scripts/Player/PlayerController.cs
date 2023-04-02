@@ -22,6 +22,7 @@ public class PlayerController : MonoBehaviour
     private PlayerMover _playerMover;
     private PlayerInteraction _playerInteraction;
 
+    public bool IsArmed => _isArmed;
     public const string UP = "Up";
     public const string DOWN = "Down";
     public const string RIGHT = "Right";
@@ -65,10 +66,12 @@ public class PlayerController : MonoBehaviour
 
     public void OnLanternEnable()
     {
-        if (_lantern.IsEnabled)
-            _lantern.TurnOff();
-        else
-            _lantern.TurnOn();
+        if (GetComponent<Inventory>().ContainId("lantern"))
+        { if (_lantern.IsEnabled)
+                _lantern.TurnOff();
+            else
+                _lantern.TurnOn();
+        }
     }
 
     public void OnOpenNotebook()

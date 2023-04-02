@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Lantern
   m_EditorClassIdentifier: 
   id: lantern
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 7233ce348e4ef054aa00296ce0294a1b, type: 3}

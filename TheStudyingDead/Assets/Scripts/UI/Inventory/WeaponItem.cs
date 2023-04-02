@@ -6,4 +6,10 @@ using UnityEngine;
 public class WeaponItem : Item
 {
     public double damage;
+    private bool use=false;
+    public bool Use => use;
+    public void Select()
+    {
+        use = !use;
+    }
 }

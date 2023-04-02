@@ -54,6 +54,18 @@ public class Inventory : MonoBehaviour
         return false;
     }
 
+    public bool ContainId(string id)
+    {
+        foreach (InventorySlot slot in items)
+        {
+            if (slot.item.id == id)
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+
     public Item GetItem(int i)
     {
         return i < items.Count ? items[i].item : null;

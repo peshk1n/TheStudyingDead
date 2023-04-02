@@ -8,6 +8,7 @@ public class Quest : MonoBehaviour
 {
     [SerializeField] protected string _name;
     [SerializeField] protected string _description;
+    [SerializeField] private Item[] _questItems;
     private bool _isFinish=false;
 
     public bool IsFinish => _isFinish;
@@ -27,6 +28,8 @@ public class Quest : MonoBehaviour
         manager.FinishMessage();
         Invoke("wait", 2);
         gameObject.active = false;
+        foreach (var item in _questItems)
+            item.isQuestItem = false;
         //Destroy(gameObject);
     }
 
