@@ -13,15 +13,18 @@ public class ZombieController : MonoBehaviour
     private int _currentPoint = 0;
     private Rigidbody2D _rigidbody;
     private Animator _animatorController;
+    private Collider2D _collider;
 
     private static readonly int Movement = Animator.StringToHash("Move");
     private static readonly int Idle = Animator.StringToHash("Idle");
     private static readonly int StalkingKey = Animator.StringToHash("Stalking");
+    private static readonly int DieKey = Animator.StringToHash("Die");
 
     private void Awake()
     {
         _animatorController = GetComponent<Animator>();
         _rigidbody = GetComponent<Rigidbody2D>();
+        _collider = GetComponent<Collider2D>();
     }
 
     public IEnumerator DoPatrol()
@@ -66,5 +69,11 @@ public class ZombieController : MonoBehaviour
 
         _animatorController.SetFloat("Horizontal", moveDirection.x);
         _animatorController.SetFloat("Vertical", moveDirection.y);
+    }
+
+    public void Die()
+    {
+        _animatorController.SetTrigger(DieKey);
+        _collider.enabled = false;
     }
 }

@@ -90,4 +90,11 @@ public class ZombieAI : MonoBehaviour
 
         Debug.Log("Zombie died");
     }
+
+    public void Die()
+    {
+        Discard();
+        _zombieController.Die();
+        _isDead = true;
+    }
 }

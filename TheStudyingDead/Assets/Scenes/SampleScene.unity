@@ -10700,7 +10700,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.071, y: 0.8766036}
   m_AnchorMax: {x: 0.95654655, y: 0.9363018}
-  m_AnchoredPosition: {x: -5.9999084, y: 1}
+  m_AnchoredPosition: {x: -5.999939, y: 1}
   m_SizeDelta: {x: -9.856476, y: 1.4420776}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &694696428
@@ -10884,7 +10884,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 202328424}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.2657652
+  m_Size: 0.26572245
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -18449,7 +18449,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 911742458}
         m_TargetAssemblyTypeName: ZombieAI, Assembly-CSharp
-        m_MethodName: Discard
+        m_MethodName: Die
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -18459,6 +18459,11 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!70 &911742468 stripped
+CapsuleCollider2D:
+  m_CorrespondingSourceObject: {fileID: 911742456, guid: 9186bcac63970b6479741fcfc98e2390, type: 3}
+  m_PrefabInstance: {fileID: 2250020908870334722}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &913080420
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34389,7 +34394,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.43422794, y: 0.1051637}
   m_AnchorMax: {x: 0.577, y: 0.256485}
-  m_AnchoredPosition: {x: -2.3961945, y: 4.0009003}
+  m_AnchoredPosition: {x: -2.3961945, y: 4.0008545}
   m_SizeDelta: {x: 0.7921982, y: 27.069}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1757294259
@@ -40027,6 +40032,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 911742465, guid: 9186bcac63970b6479741fcfc98e2390, type: 3}
+      propertyPath: _collider
+      value: 
+      objectReference: {fileID: 911742468}
     - target: {fileID: 911742465, guid: 9186bcac63970b6479741fcfc98e2390, type: 3}
       propertyPath: _targetPoints.Array.data[0]
       value: 
