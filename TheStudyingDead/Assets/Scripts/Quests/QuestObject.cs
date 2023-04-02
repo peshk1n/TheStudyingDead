@@ -10,6 +10,10 @@ public class QuestObject : MonoBehaviour
 
     [SerializeField] List<GameObject> _activeObjects;
     [SerializeField] List<Collider2D> _activeColliders;
+    [SerializeField] List<Collider2D> _extraColliders;
+    [SerializeField] List<GameObject> _extraObj;
+
+
     [SerializeField] List<GameObject> _offObjects;
     [SerializeField] List<Collider2D> _offColliders;
 
@@ -81,5 +85,17 @@ public class QuestObject : MonoBehaviour
             AvailableObj();
         }
 
+    }
+
+    public void ExtraColl()
+    {
+        foreach (Collider2D collider in _extraColliders)
+        {
+            if (collider != null) collider.enabled = true;
+        }
+        foreach (GameObject obj in _extraObj)
+        {
+            if (obj != null) obj?.SetActive(false);
+        }
     }
 }

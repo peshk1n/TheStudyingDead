@@ -790,7 +790,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1717709162}
         m_TargetAssemblyTypeName: QuestObject, Assembly-CSharp
-        m_MethodName: ChangeAvailableObject
+        m_MethodName: ExtraColl
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4762,6 +4762,8 @@ MonoBehaviour:
         m_CallState: 2
   _activeObjects: []
   _activeColliders: []
+  _extraColliders: []
+  _extraObj: []
   _offObjects: []
   _offColliders: []
 --- !u!1 &271152438 stripped
@@ -6654,6 +6656,8 @@ MonoBehaviour:
   - {fileID: 1777910098}
   _activeColliders:
   - {fileID: 652208363}
+  _extraColliders: []
+  _extraObj: []
   _offObjects: []
   _offColliders: []
 --- !u!224 &395826715 stripped
@@ -7580,12 +7584,13 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   _activeObjects:
-  - {fileID: 54672795}
+  - {fileID: 1533828519}
   _activeColliders:
   - {fileID: 748472899}
-  - {fileID: 1148783625}
+  _extraColliders: []
+  _extraObj: []
   _offObjects:
-  - {fileID: 0}
+  - {fileID: 54672795}
   _offColliders:
   - {fileID: 94078988}
 --- !u!58 &480004098
@@ -10879,7 +10884,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 202328424}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.26579198
+  m_Size: 0.2657652
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -11531,13 +11536,13 @@ MonoBehaviour:
   _action:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 54672795}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 748472898}
+        m_TargetAssemblyTypeName: QuestObject, Assembly-CSharp
+        m_MethodName: FinishIfHasItem
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 11400000, guid: ac58b8be5243910449d663ef2103954b, type: 2}
+          m_ObjectArgumentAssemblyTypeName: Item, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -11547,10 +11552,13 @@ MonoBehaviour:
   - {fileID: 6497966}
   - {fileID: 911742447}
   - {fileID: 435605336}
-  - {fileID: 773906673}
   _activeColliders: []
+  _extraColliders: []
+  _extraObj: []
   _offObjects:
   - {fileID: 1533828519}
+  - {fileID: 773906673}
+  - {fileID: 54672795}
   _offColliders:
   - {fileID: 1111619743}
 --- !u!58 &748472899
@@ -12008,6 +12016,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1717709162}
         m_TargetAssemblyTypeName: QuestObject, Assembly-CSharp
         m_MethodName: StartQuest
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1717709162}
+        m_TargetAssemblyTypeName: QuestObject, Assembly-CSharp
+        m_MethodName: ChangeAvailableObject
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -18644,7 +18664,10 @@ MonoBehaviour:
   _activeObjects: []
   _activeColliders:
   - {fileID: 480004098}
-  _offObjects: []
+  _extraColliders: []
+  _extraObj: []
+  _offObjects:
+  - {fileID: 54672795}
   _offColliders: []
 --- !u!58 &913613015
 CircleCollider2D:
@@ -33826,11 +33849,12 @@ MonoBehaviour:
   _activeColliders:
   - {fileID: 94078988}
   - {fileID: 1328420981}
+  _extraColliders:
   - {fileID: 773906676}
-  _offObjects:
+  _extraObj:
   - {fileID: 1666655055}
-  _offColliders:
-  - {fileID: 1148783625}
+  _offObjects: []
+  _offColliders: []
 --- !u!58 &1717709163
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -34365,7 +34389,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.43422794, y: 0.1051637}
   m_AnchorMax: {x: 0.577, y: 0.256485}
-  m_AnchoredPosition: {x: -2.3961945, y: 4.0008545}
+  m_AnchoredPosition: {x: -2.3961945, y: 4.0009003}
   m_SizeDelta: {x: 0.7921982, y: 27.069}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1757294259
