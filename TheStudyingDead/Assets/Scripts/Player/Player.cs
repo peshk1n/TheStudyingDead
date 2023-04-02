@@ -58,4 +58,9 @@ public class Player : MonoBehaviour
         }
         else return false;
     }
+
+    public void StopTime()
+    {
+        Time.timeScale = 0;
+    }
 }
