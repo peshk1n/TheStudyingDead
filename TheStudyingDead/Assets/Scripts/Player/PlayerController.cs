@@ -97,7 +97,7 @@ public class PlayerController : MonoBehaviour
 
     public void Attack()
     {
-        if (!_isAttacking)
+        if (!_isAttacking && _isArmed)
         {
             _isAttacking = true;
             _playerAttack.Attack();
@@ -106,10 +106,6 @@ public class PlayerController : MonoBehaviour
             //float attackDeley = (float)_animatorController.GetCurrentAnimatorClipInfo(0).Length / 3.0f;
             Invoke("Attack—omplete", _attackDeley);
         }
-
-
-        if (!_isArmed)
-            return;
     }
 
     private void Attack—omplete()
