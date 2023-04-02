@@ -63,7 +63,7 @@ public class DialogManager : MonoBehaviour
         foreach(char x in sentence_.ToCharArray())
         {
             dialogText.text += x;
-            for(int i = 0; i <= 3;i++)
+            for(int i = 0; i <= 1;i++)
             {
                 yield return null;
             }

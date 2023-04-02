@@ -26,6 +26,7 @@ public class ZombieAI : MonoBehaviour
         _animator = GetComponent<Animator>();
         _damageComponent = GetComponent<ModifyHealthComponent>();
         _hp = GetComponent<HealthComponent>();
+        _collider = GetComponent<Collider2D>();
 
         StartState(Patrolling());
     }
