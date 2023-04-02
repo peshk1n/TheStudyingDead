@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 2250020907227421261}
   - component: {fileID: 2250020907227421270}
   - component: {fileID: 2250020907227421265}
-  - component: {fileID: 2250020907227421264}
   - component: {fileID: 2250020907227421271}
   - component: {fileID: 2250020907227421268}
+  - component: {fileID: 911742456}
+  - component: {fileID: 911742465}
   m_Layer: 0
   m_Name: Zombie
   m_TagString: Untagged
@@ -132,7 +133,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &2250020907227421265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -147,22 +148,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _moveSpeed: 2
   _rigidbody: {fileID: 2250020907227421270}
---- !u!114 &2250020907227421264
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2250020907227421260}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 084a371f4b199304eae8693eae07cb56, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _targetPoints:
-  - {fileID: 0}
-  - {fileID: 0}
-  _treshold: 1
 --- !u!114 &2250020907227421271
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -179,6 +164,9 @@ MonoBehaviour:
   _vision: {fileID: 2250020908868212447}
   _canAttack: {fileID: 2250020907811662392}
   _attackCooldown: 0.5
+  _zombieController: {fileID: 911742465}
+  _rigidbody: {fileID: 2250020907227421270}
+  _pushForce: 50
 --- !u!114 &2250020907227421268
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -192,6 +180,40 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _healthDelta: -1
+--- !u!70 &911742456
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2250020907227421260}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 1, y: 2}
+  m_Direction: 0
+--- !u!114 &911742465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2250020907227421260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0978b20f180b54243a66262302f1df21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _moveSpeed: 3
+  _stalkingSpeed: 3
+  _targetPoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  _treshold: 1
 --- !u!1 &2250020907811662395
 GameObject:
   m_ObjectHideFlags: 0
@@ -325,7 +347,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 10, y: 10}
+  m_Size: {x: 8, y: 8}
   m_EdgeRadius: 0
 --- !u!114 &2250020908868212447
 MonoBehaviour:

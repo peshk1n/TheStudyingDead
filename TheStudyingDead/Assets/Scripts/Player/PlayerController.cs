@@ -1,4 +1,4 @@
-using UnityEditor.Animations;
+//using UnityEditor.Animations;
 using UnityEngine;
 
 [RequireComponent(typeof(Animator))]
@@ -10,8 +10,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private InventoryAnimatedWindow _inventoryWindow;
     [SerializeField] private MenuAnimatedWindow _menuWindow;
     [SerializeField] private BoardWindow _boardWindow;
-    [SerializeField] private AnimatorController _armed;
-    [SerializeField] private AnimatorController _unarmed;
+    [SerializeField] private RuntimeAnimatorController _armed;
+    [SerializeField] private RuntimeAnimatorController _unarmed;
 
 
     private PlayerInput _playerInput;

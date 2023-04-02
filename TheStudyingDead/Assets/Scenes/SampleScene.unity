@@ -4767,7 +4767,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.030264832, y: 0.7368965}
   m_AnchorMax: {x: 0.9594902, y: 0.99500006}
-  m_AnchoredPosition: {x: 14.000046, y: -412.4999}
+  m_AnchoredPosition: {x: 14.000107, y: -412.4999}
   m_SizeDelta: {x: 13.293396, y: 814.127}
   m_Pivot: {x: 0.5, y: 0.50000006}
 --- !u!114 &307970823
@@ -17331,27 +17331,6 @@ MonoBehaviour:
   - {x: -3.5752099, y: -7.0886445, z: 0}
   - {x: -1.6469829, y: -7.802712, z: 0}
   - {x: 0.17729218, y: -7.081164, z: 0}
---- !u!1 &911742447 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2250020907227421260, guid: 9186bcac63970b6479741fcfc98e2390, type: 3}
-  m_PrefabInstance: {fileID: 2250020908870334722}
-  m_PrefabAsset: {fileID: 0}
---- !u!70 &911742456
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 911742447}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 1, y: 2}
-  m_Direction: 0
 --- !u!1001 &913080420
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37558,18 +37537,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 911742465, guid: 9186bcac63970b6479741fcfc98e2390, type: 3}
+      propertyPath: _targetPoints.Array.data[0]
+      value: 
+      objectReference: {fileID: 296019972}
+    - target: {fileID: 911742465, guid: 9186bcac63970b6479741fcfc98e2390, type: 3}
+      propertyPath: _targetPoints.Array.data[1]
+      value: 
+      objectReference: {fileID: 1946851175}
     - target: {fileID: 2250020907227421260, guid: 9186bcac63970b6479741fcfc98e2390, type: 3}
       propertyPath: m_Name
       value: Zombie
       objectReference: {fileID: 0}
-    - target: {fileID: 2250020907227421264, guid: 9186bcac63970b6479741fcfc98e2390, type: 3}
-      propertyPath: _targetPoints.Array.data[0]
-      value: 
-      objectReference: {fileID: 296019972}
-    - target: {fileID: 2250020907227421264, guid: 9186bcac63970b6479741fcfc98e2390, type: 3}
-      propertyPath: _targetPoints.Array.data[1]
-      value: 
-      objectReference: {fileID: 1946851175}
     - target: {fileID: 2250020907227421267, guid: 9186bcac63970b6479741fcfc98e2390, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -37614,22 +37593,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2250020907227421270, guid: 9186bcac63970b6479741fcfc98e2390, type: 3}
-      propertyPath: m_Constraints
-      value: 4
-      objectReference: {fileID: 0}
     - target: {fileID: 2250020907227421271, guid: 9186bcac63970b6479741fcfc98e2390, type: 3}
       propertyPath: _target
       value: 
       objectReference: {fileID: 653102225}
-    - target: {fileID: 2250020908868212444, guid: 9186bcac63970b6479741fcfc98e2390, type: 3}
-      propertyPath: m_Size.x
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 2250020908868212444, guid: 9186bcac63970b6479741fcfc98e2390, type: 3}
-      propertyPath: m_Size.y
-      value: 8
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9186bcac63970b6479741fcfc98e2390, type: 3}
 --- !u!1001 &6157103760827001664

@@ -10,28 +10,31 @@ public class ZombieAI : MonoBehaviour
     [SerializeField] private LayerCheck _vision;
     [SerializeField] private LayerCheck _canAttack;
     [SerializeField] private float _attackCooldown = 0.5f;
+    [SerializeField] private ZombieController _zombieController;
+    [SerializeField] private Rigidbody2D _rigidbody;
+    [SerializeField] private float _pushForce = 1;
 
     private Coroutine _current;
     private bool _isDead = false;
 
     private Patrol _patrol;
     private Animator _animator;
-    private CharacterMover _mover;
     private ModifyHealthComponent _damageComponent;
+    private HealthComponent _hp;
 
     private void Start()
     {
         _patrol = GetComponent<Patrol>();
         _animator = GetComponent<Animator>();
-        _mover = GetComponent<CharacterMover>();
         _damageComponent = GetComponent<ModifyHealthComponent>();
+        _hp = GetComponent<HealthComponent>();
 
         StartState(Patrolling());
     }
 
     private void StartState(IEnumerator coroutine)
     {
-        _mover.Move(Vector3.zero);
+        _zombieController.Move(Vector2.zero);
 
         if (_current != null)
             StopCoroutine(_current);
@@ -41,7 +44,7 @@ public class ZombieAI : MonoBehaviour
 
     private IEnumerator Patrolling()
     {
-        yield return _patrol.DoPatrol();
+        yield return _zombieController.DoPatrol();
     }
 
     public void OnPlayerInVision()
@@ -63,7 +66,7 @@ public class ZombieAI : MonoBehaviour
             else
             {
                 Vector3 direction = (_target.transform.position - transform.position).normalized;
-                _mover.Move(direction);
+                _zombieController.Stalking(direction);
             }
             yield return null;
         }
@@ -74,9 +77,20 @@ public class ZombieAI : MonoBehaviour
 
     private IEnumerator Attack()
     {
-        Debug.Log("Attack");
-        _mover.Move(Vector3.zero);
+        Vector3 direction = (_target.transform.position - transform.position).normalized;
+        _rigidbody.AddForce(direction * 3);
+
+        _animator.SetTrigger("Attack");
         _damageComponent.Apply(_target.gameObject);
         yield return new WaitForSeconds(_attackCooldown);
+    }
+
+    public void Discard()
+    {
+        Vector3 direction = (_target.transform.position - transform.position).normalized;
+        _rigidbody.AddForceAtPosition(-1 * direction * _pushForce, _target.transform.position, ForceMode2D.Impulse);
+        _hp.ModifyHealth(_hp.MaxHealth);
+
+        Debug.Log("Zombie died");
     }
 }
