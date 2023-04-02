@@ -95,6 +95,6 @@ public class ZombieAI : MonoBehaviour
     {
         Discard();
         _zombieController.Die();
-        _isDead = true;
+        //_isDead = true;
     }
 }
