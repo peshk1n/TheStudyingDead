@@ -20,7 +20,11 @@ public class DialogManager : MonoBehaviour
         _sentences = new Queue<string>();
         _name = new Queue<string>();
     }
-
+    private void Update()
+    {
+        if (animator.GetBool("IsOpen") && (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.KeypadEnter)))
+            ShowNextSentences();
+    }
     public void StartDialogue(Dialogue dialogue, UnityEvent action) 
     {
         _action = action;

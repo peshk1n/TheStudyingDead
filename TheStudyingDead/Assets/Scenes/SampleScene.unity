@@ -11018,7 +11018,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 202328424}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.2657652
+  m_Size: 0.26576516
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -18492,7 +18492,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.034520835, y: 0.87174094}
   m_AnchorMax: {x: 0.35224998, y: 0.96000004}
-  m_AnchoredPosition: {x: 1.4007568, y: 0.3276062}
+  m_AnchoredPosition: {x: 1.4007568, y: 0.32763672}
   m_SizeDelta: {x: 2.8017998, y: -0.36880004}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &907493684
@@ -21823,8 +21823,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8246148eb1c49dc4db62ffe44d93e0a2, type: 2}
-  m_sharedMaterial: {fileID: 4892512515663812339, guid: 8246148eb1c49dc4db62ffe44d93e0a2, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 56c359e92f3365148af777d410a2fa01, type: 2}
+  m_sharedMaterial: {fileID: 3153442976890478, guid: 56c359e92f3365148af777d410a2fa01, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -30772,7 +30772,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.7093702, y: 0.13700001}
   m_AnchorMax: {x: 0.99000007, y: 0.31}
-  m_AnchoredPosition: {x: -2.8643951, y: 0}
+  m_AnchoredPosition: {x: -2.8644104, y: 0}
   m_SizeDelta: {x: 2.6617012, y: -0.6788}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1519584567
@@ -30788,7 +30788,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
@@ -34872,7 +34872,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.43422794, y: 0.1051637}
   m_AnchorMax: {x: 0.577, y: 0.256485}
-  m_AnchoredPosition: {x: -2.3961945, y: 4.0009003}
+  m_AnchoredPosition: {x: -2.3961945, y: 4.0010223}
   m_SizeDelta: {x: 0.7921982, y: 27.069}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1757294259
