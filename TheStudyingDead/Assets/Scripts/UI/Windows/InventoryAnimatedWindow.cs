@@ -17,7 +17,7 @@ public class InventoryAnimatedWindow : AnimatedWindow
         _inventoryCanvas = GetComponent<Canvas>();
         _inventoryCanvas.enabled = false;
         
-        _inventory.SetActive(false);
+        //_inventory.SetActive(false);
         _tasks.SetActive(false);
 
         _isOpen = false;
@@ -30,7 +30,8 @@ public class InventoryAnimatedWindow : AnimatedWindow
         if (!_inventoryCanvas.enabled)
         {
             _tasks.SetActive(false);
-            _inventory.SetActive(false);
+            _inventory.SetActive(true);
+            // _inventory.SetActive(false);
             _isOpen = false;
         }
     }
@@ -39,7 +40,7 @@ public class InventoryAnimatedWindow : AnimatedWindow
     {
         _inventoryCanvas.enabled = false;
         _tasks.SetActive(false);
-        _inventory.SetActive(false);
+       // _inventory.SetActive(false);
         _isOpen = false;
 
     }

@@ -5,7 +5,7 @@ using UnityEngine;
 public class VolumeValue : MonoBehaviour
 {
     private AudioSource _audioSource;
-    private float _volume;
+    private float _volume=0.5f;
 
     private void Start()
     {

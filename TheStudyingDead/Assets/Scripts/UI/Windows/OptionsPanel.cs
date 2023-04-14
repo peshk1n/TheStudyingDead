@@ -14,7 +14,7 @@ public class OptionsPanel : MonoBehaviour
     private bool _isOpen;
     public bool IsOpen { get { return _isOpen; } }
 
-    void Start()
+    private void Start()
     {
         _panel = GetComponent<CanvasGroup>();
         _animator = GetComponent<Animator>();
