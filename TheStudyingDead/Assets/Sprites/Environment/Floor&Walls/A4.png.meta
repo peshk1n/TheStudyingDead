@@ -176,7 +176,7 @@ TextureImporter:
         width: 95
         height: 92
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 14, y: 16, z: 14, w: 13}
       outline: []
       physicsShape: []
@@ -184,6 +184,27 @@ TextureImporter:
       bones: []
       spriteID: adcd54ce7dc7d5f4f87b6b2806e98e6f
       internalID: 1159626710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A4_4
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 145
+        width: 94
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a19db017d5f614387fbeeee81ef9b0
+      internalID: -156644314
       vertices: []
       indices: 
       edges: []
@@ -201,6 +222,7 @@ TextureImporter:
     nameFileIdTable:
       A4_0: -1276908336
       A4_2: -157261314
+      A4_4: -156644314
       A4_3: 1159626710
       A4_1: 586279798
   spritePackingTag: 
