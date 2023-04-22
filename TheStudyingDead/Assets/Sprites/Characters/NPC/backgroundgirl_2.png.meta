@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 56b5995b290b8f94aafb6c102d24b995
+guid: 11a34d9fd15e9274c97dac8dc2e98f73
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 8
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: backgroundboy_v2_64_0
+      name: backgroundgirl_2_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 192
-        width: 16
-        height: 34
+        x: 4
+        y: 96
+        width: 8
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,20 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 17a962207cf3c7d48a119ca0d636285c
-      internalID: -968793281
+      spriteID: 7a15c182ed3029448be16368fc2b5d4b
+      internalID: -1447199414
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: backgroundboy_v2_64_1
+      name: backgroundgirl_2_1
       rect:
         serializedVersion: 2
-        x: 40
-        y: 192
-        width: 18
-        height: 34
+        x: 20
+        y: 96
+        width: 9
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,20 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 269d00430f9be7f468fa98782d0d2991
-      internalID: 2064681446
+      spriteID: 41eeb01dd5c752047872c2fd40b0eca4
+      internalID: -627275106
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: backgroundboy_v2_64_2
+      name: backgroundgirl_2_2
       rect:
         serializedVersion: 2
-        x: 72
-        y: 192
-        width: 14
-        height: 34
+        x: 36
+        y: 96
+        width: 7
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,20 +161,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e9b5e3272584afa43836fa82c2473c73
-      internalID: 1230629303
+      spriteID: 36f6ba100965bf540bc6016bdc62eeab
+      internalID: -328214510
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: backgroundboy_v2_64_3
+      name: backgroundgirl_2_3
       rect:
         serializedVersion: 2
-        x: 106
-        y: 192
-        width: 12
-        height: 34
+        x: 52
+        y: 96
+        width: 7
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,20 +182,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4ccacccc7de2324e9055d6541aae5ee
-      internalID: 81243037
+      spriteID: 8e8af48258c07784293545dea3ee8bc0
+      internalID: 52076549
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: backgroundboy_v2_64_4
+      name: backgroundgirl_2_4
       rect:
         serializedVersion: 2
-        x: 136
-        y: 192
-        width: 16
-        height: 34
+        x: 68
+        y: 96
+        width: 8
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,20 +203,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e9a10eb364c90254da10b0c1289ba34f
-      internalID: -1841647861
+      spriteID: 86456970d141ee54aafa9171ae1244ab
+      internalID: -1256177579
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: backgroundboy_v2_64_5
+      name: backgroundgirl_2_5
       rect:
         serializedVersion: 2
-        x: 170
-        y: 192
-        width: 12
-        height: 34
+        x: 84
+        y: 96
+        width: 7
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,20 +224,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e66e4580ed16609439e5814f5e45a2c8
-      internalID: -1699280486
+      spriteID: f962ece13e93e2f4eb13e5baab2a4e03
+      internalID: 1901044236
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: backgroundboy_v2_64_6
+      name: backgroundgirl_2_6
       rect:
         serializedVersion: 2
-        x: 200
-        y: 192
-        width: 14
-        height: 34
+        x: 100
+        y: 96
+        width: 7
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -245,167 +245,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1293a9ba8b76c84bb02961f030c1020
-      internalID: 316406742
+      spriteID: 1aead0aec584b5141b22a05193c9b6ae
+      internalID: -1417625435
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: backgroundboy_v2_64_7
+      name: backgroundgirl_2_7
       rect:
         serializedVersion: 2
-        x: 8
-        y: 128
-        width: 16
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e77948602996d8b43b83f42b77b32dfd
-      internalID: 695004444
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: backgroundboy_v2_64_8
-      rect:
-        serializedVersion: 2
-        x: 38
-        y: 128
-        width: 18
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2143b06fcd6dc4c42ad8f87c2d139fe7
-      internalID: 1021853118
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: backgroundboy_v2_64_9
-      rect:
-        serializedVersion: 2
-        x: 74
-        y: 128
-        width: 14
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e0e8a2712c50e7340ad5fc1363f9ffc2
-      internalID: -1580772798
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: backgroundboy_v2_64_10
-      rect:
-        serializedVersion: 2
-        x: 106
-        y: 128
-        width: 12
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3518aa668b724bd46802dcc064273e4c
-      internalID: 260900039
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: backgroundboy_v2_64_11
-      rect:
-        serializedVersion: 2
-        x: 136
-        y: 128
-        width: 16
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e6e6c2a522f539142b0a329cc5d779c5
-      internalID: 771987394
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: backgroundboy_v2_64_12
-      rect:
-        serializedVersion: 2
-        x: 170
-        y: 128
-        width: 12
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fb68b1195529eb9438b50511b50fdcc6
-      internalID: -29388526
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: backgroundboy_v2_64_13
-      rect:
-        serializedVersion: 2
-        x: 202
-        y: 128
-        width: 14
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ed61a30a6e79d9940baab5b854747007
-      internalID: 2131109141
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: backgroundboy_v2_64_14
-      rect:
-        serializedVersion: 2
-        x: 8
+        x: 5
         y: 64
-        width: 16
-        height: 34
+        width: 7
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -413,20 +266,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4162eacf4ea172b41b51261551e9ea11
-      internalID: 612705544
+      spriteID: dcaf0906cd8b50746a7f626c77eae0b6
+      internalID: -1529183652
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: backgroundboy_v2_64_15
+      name: backgroundgirl_2_8
       rect:
         serializedVersion: 2
-        x: 40
+        x: 21
         y: 64
-        width: 16
-        height: 34
+        width: 7
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -434,20 +287,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 296da40ca76ebb3409fb5e0fa11e2159
-      internalID: 1392945498
+      spriteID: 236bcd530b7cb1449ac8dd7a06dab30d
+      internalID: 299032447
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: backgroundboy_v2_64_16
+      name: backgroundgirl_2_9
       rect:
         serializedVersion: 2
-        x: 74
+        x: 36
         y: 64
-        width: 12
-        height: 34
+        width: 8
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -455,20 +308,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8fd74f5182e3774183bf16ada06ed4d
-      internalID: -1790969294
+      spriteID: 7ca0c9abe69505449ba1614543e05363
+      internalID: 1203875228
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: backgroundboy_v2_64_17
+      name: backgroundgirl_2_10
       rect:
         serializedVersion: 2
-        x: 106
+        x: 53
         y: 64
-        width: 12
-        height: 34
+        width: 7
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -476,20 +329,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f0f7a45048fe9c4f90765baf2bd1f7d
-      internalID: -1770074666
+      spriteID: 3d68fea66fcc1f641865c8864fc3b3d2
+      internalID: 684775080
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: backgroundboy_v2_64_18
+      name: backgroundgirl_2_11
       rect:
         serializedVersion: 2
-        x: 136
+        x: 69
         y: 64
-        width: 16
-        height: 34
+        width: 7
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -497,20 +350,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca77bfeb7d32b3148b19868b058070d8
-      internalID: 1912690875
+      spriteID: 402c360fb5bdc8c43b000af1958da5a1
+      internalID: -386116087
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: backgroundboy_v2_64_19
+      name: backgroundgirl_2_12
       rect:
         serializedVersion: 2
-        x: 170
+        x: 83
         y: 64
-        width: 12
-        height: 34
+        width: 9
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -518,20 +371,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e7f7cd373613beb49a2bbf8796bc0800
-      internalID: -1128531423
+      spriteID: 405c58db9926e594b81ece888c7a3c45
+      internalID: -36032750
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: backgroundboy_v2_64_20
+      name: backgroundgirl_2_13
       rect:
         serializedVersion: 2
-        x: 202
+        x: 100
         y: 64
-        width: 12
-        height: 34
+        width: 8
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -539,20 +392,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea0e4ce5d3792394eb661da6cf62112c
-      internalID: 494959329
+      spriteID: ac3d72aef1078914595a04fb5b61e7d7
+      internalID: -220713719
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: backgroundboy_v2_64_21
+      name: backgroundgirl_2_14
       rect:
         serializedVersion: 2
-        x: 8
-        y: 2
-        width: 16
-        height: 34
+        x: 4
+        y: 32
+        width: 8
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -560,20 +413,167 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 83c89ea7c3d3e5e43955e61e0868dcc4
-      internalID: 501088603
+      spriteID: 06110aa110ac8cd4c895bd0b979676ab
+      internalID: -2033952492
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: backgroundboy_v2_64_22
+      name: backgroundgirl_2_15
       rect:
         serializedVersion: 2
-        x: 42
+        x: 20
+        y: 32
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2432e1b9426188241b4bafa32851c730
+      internalID: -256352535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgroundgirl_2_16
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 32
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0155961ca772cf441971ed7a43dca55a
+      internalID: -2109965277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgroundgirl_2_17
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 32
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bf8c317236f2874a9e513316bd3e8cf
+      internalID: -1219450890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgroundgirl_2_18
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 32
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d494aa303fef8f7488287b4d5770d249
+      internalID: 2102024935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgroundgirl_2_19
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 32
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0816b7afd857dfd44ac232bab7ed7b5f
+      internalID: 830656210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgroundgirl_2_20
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 32
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3985f584a5651504b994f87ba65a0ea5
+      internalID: -128043840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgroundgirl_2_21
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd6013270ec9874c826b859dd43de91
+      internalID: -1675158972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgroundgirl_2_22
+      rect:
+        serializedVersion: 2
+        x: 20
         y: 0
-        width: 16
-        height: 36
+        width: 9
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -581,20 +581,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff0ab1a1c4a715140b8e67d90872c90a
-      internalID: -1200126681
+      spriteID: 5b86188161ae38b4abe98649dcdd6154
+      internalID: -88544512
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: backgroundboy_v2_64_23
+      name: backgroundgirl_2_23
       rect:
         serializedVersion: 2
-        x: 74
-        y: 2
-        width: 12
-        height: 34
+        x: 36
+        y: 1
+        width: 8
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -602,20 +602,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e32f6805e05a16344ae5cfd40b0c55f7
-      internalID: 1313873164
+      spriteID: 74d083bfafc0e4e4ab3b98b5882dbfe4
+      internalID: -172147613
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: backgroundboy_v2_64_24
+      name: backgroundgirl_2_24
       rect:
         serializedVersion: 2
-        x: 104
-        y: 2
-        width: 14
-        height: 34
+        x: 52
+        y: 1
+        width: 8
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -623,20 +623,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30388aa856642c1438d07b5f3db8801d
-      internalID: -842012202
+      spriteID: a925d12bbd9d7de4fbf391ef577798ad
+      internalID: 1029465271
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: backgroundboy_v2_64_25
+      name: backgroundgirl_2_25
       rect:
         serializedVersion: 2
-        x: 134
+        x: 67
         y: 0
-        width: 16
-        height: 36
+        width: 9
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -644,20 +644,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38963f14f391a2e4ba2aad1f353cc6c2
-      internalID: -1399150428
+      spriteID: d998a9c582e65b34e982b87be2a38d2a
+      internalID: -1382010487
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: backgroundboy_v2_64_26
+      name: backgroundgirl_2_26
       rect:
         serializedVersion: 2
-        x: 170
-        y: 2
-        width: 12
-        height: 34
+        x: 84
+        y: 1
+        width: 8
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -665,20 +665,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f026e4be05e091c48bc996fd87023112
-      internalID: 445046139
+      spriteID: e1345405c68cd8c428fae546f4618fdd
+      internalID: 337356463
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: backgroundboy_v2_64_27
+      name: backgroundgirl_2_27
       rect:
         serializedVersion: 2
-        x: 202
-        y: 2
-        width: 14
-        height: 34
+        x: 100
+        y: 1
+        width: 8
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -686,8 +686,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bfc188f7d2e42784b901d8b55f0c037a
-      internalID: 755086792
+      spriteID: c24b61ed840cee349846c7681b7eed2e
+      internalID: -1655366728
       vertices: []
       indices: 
       edges: []
@@ -703,34 +703,34 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      backgroundboy_v2_64_4: -1841647861
-      backgroundboy_v2_64_6: 316406742
-      backgroundboy_v2_64_11: 771987394
-      backgroundboy_v2_64_16: -1790969294
-      backgroundboy_v2_64_1: 2064681446
-      backgroundboy_v2_64_17: -1770074666
-      backgroundboy_v2_64_23: 1313873164
-      backgroundboy_v2_64_9: -1580772798
-      backgroundboy_v2_64_21: 501088603
-      backgroundboy_v2_64_13: 2131109141
-      backgroundboy_v2_64_27: 755086792
-      backgroundboy_v2_64_22: -1200126681
-      backgroundboy_v2_64_8: 1021853118
-      backgroundboy_v2_64_14: 612705544
-      backgroundboy_v2_64_15: 1392945498
-      backgroundboy_v2_64_3: 81243037
-      backgroundboy_v2_64_12: -29388526
-      backgroundboy_v2_64_5: -1699280486
-      backgroundboy_v2_64_10: 260900039
-      backgroundboy_v2_64_24: -842012202
-      backgroundboy_v2_64_20: 494959329
-      backgroundboy_v2_64_19: -1128531423
-      backgroundboy_v2_64_26: 445046139
-      backgroundboy_v2_64_0: -968793281
-      backgroundboy_v2_64_2: 1230629303
-      backgroundboy_v2_64_7: 695004444
-      backgroundboy_v2_64_25: -1399150428
-      backgroundboy_v2_64_18: 1912690875
+      backgroundgirl_2_26: 337356463
+      backgroundgirl_2_18: 2102024935
+      backgroundgirl_2_1: -627275106
+      backgroundgirl_2_6: -1417625435
+      backgroundgirl_2_8: 299032447
+      backgroundgirl_2_12: -36032750
+      backgroundgirl_2_25: -1382010487
+      backgroundgirl_2_7: -1529183652
+      backgroundgirl_2_15: -256352535
+      backgroundgirl_2_23: -172147613
+      backgroundgirl_2_10: 684775080
+      backgroundgirl_2_20: -128043840
+      backgroundgirl_2_16: -2109965277
+      backgroundgirl_2_14: -2033952492
+      backgroundgirl_2_21: -1675158972
+      backgroundgirl_2_22: -88544512
+      backgroundgirl_2_0: -1447199414
+      backgroundgirl_2_9: 1203875228
+      backgroundgirl_2_5: 1901044236
+      backgroundgirl_2_13: -220713719
+      backgroundgirl_2_3: 52076549
+      backgroundgirl_2_24: 1029465271
+      backgroundgirl_2_2: -328214510
+      backgroundgirl_2_17: -1219450890
+      backgroundgirl_2_27: -1655366728
+      backgroundgirl_2_4: -1256177579
+      backgroundgirl_2_11: -386116087
+      backgroundgirl_2_19: 830656210
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

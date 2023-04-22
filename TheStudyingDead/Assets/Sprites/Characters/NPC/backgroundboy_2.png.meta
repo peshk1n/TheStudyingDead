@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 56b5995b290b8f94aafb6c102d24b995
+guid: 305479af860e4f34599e62d7ba635174
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 8
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: backgroundboy_v2_64_0
+      name: backgroundboy_2_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 192
-        width: 16
-        height: 34
+        x: 4
+        y: 96
+        width: 8
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,20 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 17a962207cf3c7d48a119ca0d636285c
-      internalID: -968793281
+      spriteID: 02108347760f14f4cb8a2443ae78af74
+      internalID: -998026863
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: backgroundboy_v2_64_1
+      name: backgroundboy_2_1
       rect:
         serializedVersion: 2
-        x: 40
-        y: 192
-        width: 18
-        height: 34
+        x: 20
+        y: 96
+        width: 9
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,20 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 269d00430f9be7f468fa98782d0d2991
-      internalID: 2064681446
+      spriteID: 9820153e051e0bb4c9b6141c041bde47
+      internalID: 1736344089
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: backgroundboy_v2_64_2
+      name: backgroundboy_2_2
       rect:
         serializedVersion: 2
-        x: 72
-        y: 192
-        width: 14
-        height: 34
+        x: 36
+        y: 96
+        width: 7
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,20 +161,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e9b5e3272584afa43836fa82c2473c73
-      internalID: 1230629303
+      spriteID: 0df482ba7c2f4934181da96961412756
+      internalID: -1885294476
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: backgroundboy_v2_64_3
+      name: backgroundboy_2_3
       rect:
         serializedVersion: 2
-        x: 106
-        y: 192
-        width: 12
-        height: 34
+        x: 53
+        y: 96
+        width: 6
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,20 +182,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4ccacccc7de2324e9055d6541aae5ee
-      internalID: 81243037
+      spriteID: f0323ba543fe5f8499d535f6090d2e7c
+      internalID: -384060550
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: backgroundboy_v2_64_4
+      name: backgroundboy_2_4
       rect:
         serializedVersion: 2
-        x: 136
-        y: 192
-        width: 16
-        height: 34
+        x: 68
+        y: 96
+        width: 8
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,20 +203,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e9a10eb364c90254da10b0c1289ba34f
-      internalID: -1841647861
+      spriteID: 801e0658992cc434f9e545c9a27cf781
+      internalID: 1191186832
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: backgroundboy_v2_64_5
+      name: backgroundboy_2_5
       rect:
         serializedVersion: 2
-        x: 170
-        y: 192
-        width: 12
-        height: 34
+        x: 85
+        y: 96
+        width: 6
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,20 +224,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e66e4580ed16609439e5814f5e45a2c8
-      internalID: -1699280486
+      spriteID: ce9fe91513122bd428e3d9cbc010e960
+      internalID: -1790081309
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: backgroundboy_v2_64_6
+      name: backgroundboy_2_6
       rect:
         serializedVersion: 2
-        x: 200
-        y: 192
-        width: 14
-        height: 34
+        x: 100
+        y: 96
+        width: 7
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -245,167 +245,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1293a9ba8b76c84bb02961f030c1020
-      internalID: 316406742
+      spriteID: f2c69c40dfa8bd743a3a72a413188e74
+      internalID: -62909104
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: backgroundboy_v2_64_7
+      name: backgroundboy_2_7
       rect:
         serializedVersion: 2
-        x: 8
-        y: 128
-        width: 16
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e77948602996d8b43b83f42b77b32dfd
-      internalID: 695004444
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: backgroundboy_v2_64_8
-      rect:
-        serializedVersion: 2
-        x: 38
-        y: 128
-        width: 18
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2143b06fcd6dc4c42ad8f87c2d139fe7
-      internalID: 1021853118
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: backgroundboy_v2_64_9
-      rect:
-        serializedVersion: 2
-        x: 74
-        y: 128
-        width: 14
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e0e8a2712c50e7340ad5fc1363f9ffc2
-      internalID: -1580772798
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: backgroundboy_v2_64_10
-      rect:
-        serializedVersion: 2
-        x: 106
-        y: 128
-        width: 12
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3518aa668b724bd46802dcc064273e4c
-      internalID: 260900039
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: backgroundboy_v2_64_11
-      rect:
-        serializedVersion: 2
-        x: 136
-        y: 128
-        width: 16
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e6e6c2a522f539142b0a329cc5d779c5
-      internalID: 771987394
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: backgroundboy_v2_64_12
-      rect:
-        serializedVersion: 2
-        x: 170
-        y: 128
-        width: 12
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fb68b1195529eb9438b50511b50fdcc6
-      internalID: -29388526
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: backgroundboy_v2_64_13
-      rect:
-        serializedVersion: 2
-        x: 202
-        y: 128
-        width: 14
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ed61a30a6e79d9940baab5b854747007
-      internalID: 2131109141
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: backgroundboy_v2_64_14
-      rect:
-        serializedVersion: 2
-        x: 8
+        x: 5
         y: 64
-        width: 16
-        height: 34
+        width: 7
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -413,20 +266,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4162eacf4ea172b41b51261551e9ea11
-      internalID: 612705544
+      spriteID: d2508b23ab3504e44a085c2c4ec0c7e0
+      internalID: 1401885491
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: backgroundboy_v2_64_15
+      name: backgroundboy_2_8
       rect:
         serializedVersion: 2
-        x: 40
+        x: 21
         y: 64
-        width: 16
-        height: 34
+        width: 6
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -434,20 +287,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 296da40ca76ebb3409fb5e0fa11e2159
-      internalID: 1392945498
+      spriteID: d2ceb18f5446c104e9ba18c882d3cbcb
+      internalID: 847485874
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: backgroundboy_v2_64_16
+      name: backgroundboy_2_9
       rect:
         serializedVersion: 2
-        x: 74
+        x: 36
         y: 64
-        width: 12
-        height: 34
+        width: 8
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -455,20 +308,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8fd74f5182e3774183bf16ada06ed4d
-      internalID: -1790969294
+      spriteID: 407a2db51ca45e04a83c4891516ba5b5
+      internalID: 1309214122
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: backgroundboy_v2_64_17
+      name: backgroundboy_2_10
       rect:
         serializedVersion: 2
-        x: 106
+        x: 53
         y: 64
-        width: 12
-        height: 34
+        width: 6
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -476,20 +329,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f0f7a45048fe9c4f90765baf2bd1f7d
-      internalID: -1770074666
+      spriteID: 735019e482e77b24f9ec3e2f64e6346d
+      internalID: 756180606
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: backgroundboy_v2_64_18
+      name: backgroundboy_2_11
       rect:
         serializedVersion: 2
-        x: 136
+        x: 69
         y: 64
-        width: 16
-        height: 34
+        width: 7
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -497,20 +350,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca77bfeb7d32b3148b19868b058070d8
-      internalID: 1912690875
+      spriteID: 06c8c566c06c3964d9507020d78029f8
+      internalID: 1146758160
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: backgroundboy_v2_64_19
+      name: backgroundboy_2_12
       rect:
         serializedVersion: 2
-        x: 170
+        x: 83
         y: 64
-        width: 12
-        height: 34
+        width: 9
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -518,20 +371,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e7f7cd373613beb49a2bbf8796bc0800
-      internalID: -1128531423
+      spriteID: 667478a1bb1895e46991f66f18e90988
+      internalID: 901423578
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: backgroundboy_v2_64_20
+      name: backgroundboy_2_13
       rect:
         serializedVersion: 2
-        x: 202
+        x: 100
         y: 64
-        width: 12
-        height: 34
+        width: 8
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -539,20 +392,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea0e4ce5d3792394eb661da6cf62112c
-      internalID: 494959329
+      spriteID: 74c8b8e316781414eb5b29cb9e7d5231
+      internalID: -1054521355
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: backgroundboy_v2_64_21
+      name: backgroundboy_2_14
       rect:
         serializedVersion: 2
-        x: 8
-        y: 2
-        width: 16
-        height: 34
+        x: 4
+        y: 32
+        width: 8
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -560,20 +413,167 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 83c89ea7c3d3e5e43955e61e0868dcc4
-      internalID: 501088603
+      spriteID: e6a86183e9108024693130ea35c5bb27
+      internalID: -474592331
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: backgroundboy_v2_64_22
+      name: backgroundboy_2_15
       rect:
         serializedVersion: 2
-        x: 42
+        x: 20
+        y: 32
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7eab9e0c5a457f4bbd3514b5651b819
+      internalID: -835807255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgroundboy_2_16
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 32
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9aa16ac5ccb38e4d996b11a0334d568
+      internalID: -831003518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgroundboy_2_17
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 32
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ee6b8bfe93074d4c94092009822edfa
+      internalID: -340693677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgroundboy_2_18
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 32
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28375431e573144429ac9e3a3d2852ba
+      internalID: 281079037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgroundboy_2_19
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 32
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdfe677373503044780e77e2de6f423c
+      internalID: -1565213286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgroundboy_2_20
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 32
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa28dd69a2401794f98b0c66965264bc
+      internalID: 702809291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgroundboy_2_21
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cbe9bfd64cdde9499f459a1cbae51eb
+      internalID: -1536952511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgroundboy_2_22
+      rect:
+        serializedVersion: 2
+        x: 21
         y: 0
-        width: 16
-        height: 36
+        width: 8
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -581,20 +581,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff0ab1a1c4a715140b8e67d90872c90a
-      internalID: -1200126681
+      spriteID: 6c021d20443055045890f788339f8526
+      internalID: -2018802648
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: backgroundboy_v2_64_23
+      name: backgroundboy_2_23
       rect:
         serializedVersion: 2
-        x: 74
-        y: 2
-        width: 12
-        height: 34
+        x: 37
+        y: 1
+        width: 6
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -602,20 +602,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e32f6805e05a16344ae5cfd40b0c55f7
-      internalID: 1313873164
+      spriteID: 4f1c85067ad99524da1aafb413539800
+      internalID: 2082706291
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: backgroundboy_v2_64_24
+      name: backgroundboy_2_24
       rect:
         serializedVersion: 2
-        x: 104
-        y: 2
-        width: 14
-        height: 34
+        x: 52
+        y: 1
+        width: 7
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -623,20 +623,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30388aa856642c1438d07b5f3db8801d
-      internalID: -842012202
+      spriteID: 6b57be52684ff1a44a7720794bcb7350
+      internalID: 1663368568
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: backgroundboy_v2_64_25
+      name: backgroundboy_2_25
       rect:
         serializedVersion: 2
-        x: 134
+        x: 67
         y: 0
-        width: 16
-        height: 36
+        width: 8
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -644,20 +644,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38963f14f391a2e4ba2aad1f353cc6c2
-      internalID: -1399150428
+      spriteID: 8a4f32f2d2ffa43499bcbedaf0a3c8e1
+      internalID: -675701481
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: backgroundboy_v2_64_26
+      name: backgroundboy_2_26
       rect:
         serializedVersion: 2
-        x: 170
-        y: 2
-        width: 12
-        height: 34
+        x: 85
+        y: 1
+        width: 6
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -665,20 +665,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f026e4be05e091c48bc996fd87023112
-      internalID: 445046139
+      spriteID: c6539cc8f1e8e5249a93151f8d0ed24a
+      internalID: -34382450
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: backgroundboy_v2_64_27
+      name: backgroundboy_2_27
       rect:
         serializedVersion: 2
-        x: 202
-        y: 2
-        width: 14
-        height: 34
+        x: 101
+        y: 1
+        width: 7
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -686,8 +686,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bfc188f7d2e42784b901d8b55f0c037a
-      internalID: 755086792
+      spriteID: 4c90a4c1ee749654dbac49c5603eaed5
+      internalID: 1624633509
       vertices: []
       indices: 
       edges: []
@@ -703,34 +703,34 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      backgroundboy_v2_64_4: -1841647861
-      backgroundboy_v2_64_6: 316406742
-      backgroundboy_v2_64_11: 771987394
-      backgroundboy_v2_64_16: -1790969294
-      backgroundboy_v2_64_1: 2064681446
-      backgroundboy_v2_64_17: -1770074666
-      backgroundboy_v2_64_23: 1313873164
-      backgroundboy_v2_64_9: -1580772798
-      backgroundboy_v2_64_21: 501088603
-      backgroundboy_v2_64_13: 2131109141
-      backgroundboy_v2_64_27: 755086792
-      backgroundboy_v2_64_22: -1200126681
-      backgroundboy_v2_64_8: 1021853118
-      backgroundboy_v2_64_14: 612705544
-      backgroundboy_v2_64_15: 1392945498
-      backgroundboy_v2_64_3: 81243037
-      backgroundboy_v2_64_12: -29388526
-      backgroundboy_v2_64_5: -1699280486
-      backgroundboy_v2_64_10: 260900039
-      backgroundboy_v2_64_24: -842012202
-      backgroundboy_v2_64_20: 494959329
-      backgroundboy_v2_64_19: -1128531423
-      backgroundboy_v2_64_26: 445046139
-      backgroundboy_v2_64_0: -968793281
-      backgroundboy_v2_64_2: 1230629303
-      backgroundboy_v2_64_7: 695004444
-      backgroundboy_v2_64_25: -1399150428
-      backgroundboy_v2_64_18: 1912690875
+      backgroundboy_2_7: 1401885491
+      backgroundboy_2_3: -384060550
+      backgroundboy_2_0: -998026863
+      backgroundboy_2_15: -835807255
+      backgroundboy_2_16: -831003518
+      backgroundboy_2_23: 2082706291
+      backgroundboy_2_2: -1885294476
+      backgroundboy_2_20: 702809291
+      backgroundboy_2_14: -474592331
+      backgroundboy_2_13: -1054521355
+      backgroundboy_2_12: 901423578
+      backgroundboy_2_17: -340693677
+      backgroundboy_2_18: 281079037
+      backgroundboy_2_1: 1736344089
+      backgroundboy_2_24: 1663368568
+      backgroundboy_2_27: 1624633509
+      backgroundboy_2_5: -1790081309
+      backgroundboy_2_22: -2018802648
+      backgroundboy_2_21: -1536952511
+      backgroundboy_2_8: 847485874
+      backgroundboy_2_9: 1309214122
+      backgroundboy_2_11: 1146758160
+      backgroundboy_2_26: -34382450
+      backgroundboy_2_4: 1191186832
+      backgroundboy_2_25: -675701481
+      backgroundboy_2_10: 756180606
+      backgroundboy_2_6: -62909104
+      backgroundboy_2_19: -1565213286
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
