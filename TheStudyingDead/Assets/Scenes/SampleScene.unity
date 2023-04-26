@@ -12008,6 +12008,7 @@ MonoBehaviour:
   - {fileID: 54672795}
   - {fileID: 1111619738}
   - {fileID: 1711832169}
+  - {fileID: 1488245660}
   _offColliders: []
 --- !u!58 &748472899
 CircleCollider2D:
@@ -27690,7 +27691,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: c73386e8ce596b14293de7876cfadcd7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -41364,7 +41365,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 2bdb83fdd0f79114e8ef831f14f72466, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -42699,6 +42700,10 @@ PrefabInstance:
     - target: {fileID: 2250020907227421260, guid: 9186bcac63970b6479741fcfc98e2390, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2250020907227421266, guid: 9186bcac63970b6479741fcfc98e2390, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2250020907227421266, guid: 9186bcac63970b6479741fcfc98e2390, type: 3}
       propertyPath: m_WasSpriteAssigned
