@@ -55,6 +55,7 @@ public class PlayerController : MonoBehaviour
 
     private void OnDisable()
     {
+        _playerMover.Move(Vector2.zero);
         _playerInput.Disable();
     }
 

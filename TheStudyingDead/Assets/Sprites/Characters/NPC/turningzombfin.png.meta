@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -42,12 +42,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -103,7 +103,448 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: turningzombfin_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 16
+        width: 31
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c89c2d3dbb2c4a4b934d80398d4ae81
+      internalID: 952062761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turningzombfin_1
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 16
+        width: 29
+        height: 14
+      alignment: 9
+      pivot: {x: 0.5344828, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6babcbd32ebdeaa4086dae2c5e46837f
+      internalID: 726846553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turningzombfin_2
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 16
+        width: 29
+        height: 14
+      alignment: 9
+      pivot: {x: 0.5344828, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c72ebdf657847ea4a9c23869c47cfba9
+      internalID: 1085769279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turningzombfin_3
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 16
+        width: 27
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5740741, y: 0.375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d06d37bd6a1137b47bd60571a69400f9
+      internalID: -1600233074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turningzombfin_4
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 16
+        width: 27
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5740741, y: 0.375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2c8e24ea9c849f4d9e3ccc5930c2ebf
+      internalID: 1672916961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turningzombfin_5
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 11
+        width: 33
+        height: 17
+      alignment: 9
+      pivot: {x: 0.46969697, y: 0.64705884}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 270d4ba2e4ef99b418e927fcadbe1009
+      internalID: 828417515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turningzombfin_6
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 11
+        width: 33
+        height: 19
+      alignment: 9
+      pivot: {x: 0.46969697, y: 0.57894737}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38fe01a185b4e9c4abfd9b61c03b1fb5
+      internalID: -1883795399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turningzombfin_7
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 11
+        width: 33
+        height: 19
+      alignment: 9
+      pivot: {x: 0.46969697, y: 0.57894737}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a767a0084b008614a84040d7e88fde15
+      internalID: -2133502982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turningzombfin_8
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 11
+        width: 33
+        height: 21
+      alignment: 9
+      pivot: {x: 0.46969697, y: 0.52380955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ba8d71f8270c3c46a9e92f5411232d0
+      internalID: 103365049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turningzombfin_9
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 11
+        width: 33
+        height: 21
+      alignment: 9
+      pivot: {x: 0.46969697, y: 0.52380955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2487cc03a972a7248a8d68e0dccdc450
+      internalID: -808991867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turningzombfin_10
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 11
+        width: 33
+        height: 17
+      alignment: 9
+      pivot: {x: 0.46969697, y: 0.64705884}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa1d031191da2149b9f7c01b415b480
+      internalID: 1228395165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turningzombfin_11
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 11
+        width: 33
+        height: 19
+      alignment: 9
+      pivot: {x: 0.46969697, y: 0.57894737}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f9f9bdd7ef818469d82694d80b9c1d
+      internalID: -882059267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turningzombfin_12
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 11
+        width: 33
+        height: 19
+      alignment: 9
+      pivot: {x: 0.46969697, y: 0.57894737}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d6b05bd65abd2948beb289e1ae51d39
+      internalID: -915331169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turningzombfin_13
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 11
+        width: 33
+        height: 21
+      alignment: 9
+      pivot: {x: 0.46969697, y: 0.52380955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc311c5233e41e4eb907fe04ae6492c
+      internalID: -915150131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turningzombfin_14
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 11
+        width: 33
+        height: 21
+      alignment: 9
+      pivot: {x: 0.46969697, y: 0.52380955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5631a64c5dd2534e9ab374422039cc5
+      internalID: 746999028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turningzombfin_15
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 9
+        width: 34
+        height: 19
+      alignment: 9
+      pivot: {x: 0.45588234, y: 0.68421054}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3faea80dcb419514c8648bef634a5e19
+      internalID: 1262941873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turningzombfin_16
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 9
+        width: 45
+        height: 25
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c956fecaf893a2748b026931b2170302
+      internalID: 1341216920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turningzombfin_17
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 9
+        width: 51
+        height: 33
+      alignment: 9
+      pivot: {x: 0.39215687, y: 0.3939394}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9455f74b8389f845bfaf6c317a332e0
+      internalID: 1700923421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turningzombfin_18
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 9
+        width: 45
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f61b4bb3f8c4974a9db43dda84337a5
+      internalID: -1945529735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turningzombfin_20
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 4
+        width: 59
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 169990bd55907c34da41a2489903e00d
+      internalID: 1321634280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turningzombfin_22
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 4
+        width: 59
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede207396aef1b44abb85fb8605611da
+      internalID: -1402546412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -114,7 +555,30 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      turningzombfin_16: 1341216920
+      turningzombfin_12: -915331169
+      turningzombfin_9: -808991867
+      turningzombfin_5: 828417515
+      turningzombfin_13: -915150131
+      turningzombfin_20: 1321634280
+      turningzombfin_21: -383579616
+      turningzombfin_19: 845742319
+      turningzombfin_22: -1402546412
+      turningzombfin_6: -1883795399
+      turningzombfin_1: 726846553
+      turningzombfin_17: 1700923421
+      turningzombfin_0: 952062761
+      turningzombfin_18: -1945529735
+      turningzombfin_15: 1262941873
+      turningzombfin_8: 103365049
+      turningzombfin_4: 1672916961
+      turningzombfin_11: -882059267
+      turningzombfin_10: 1228395165
+      turningzombfin_3: -1600233074
+      turningzombfin_2: 1085769279
+      turningzombfin_14: 746999028
+      turningzombfin_7: -2133502982
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

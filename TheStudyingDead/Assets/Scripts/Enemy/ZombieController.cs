@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.EventSystems;
 
 public class ZombieController : MonoBehaviour
 {
@@ -14,9 +15,13 @@ public class ZombieController : MonoBehaviour
     private Rigidbody2D _rigidbody;
     private Animator _animatorController;
 
+
+    private static readonly int Horizontal = Animator.StringToHash("Horizontal");
+    private static readonly int Vertical = Animator.StringToHash("Vertical");
     private static readonly int Movement = Animator.StringToHash("Move");
     private static readonly int Idle = Animator.StringToHash("Idle");
     private static readonly int StalkingKey = Animator.StringToHash("Stalking");
+    private static readonly int AttackKey = Animator.StringToHash("Attack");
     private static readonly int DieKey = Animator.StringToHash("Die");
 
     private void Awake()
@@ -54,9 +59,17 @@ public class ZombieController : MonoBehaviour
         {
             _animatorController.SetTrigger(Movement);
 
-            _animatorController.SetFloat("Horizontal", moveDirection.x);
-            _animatorController.SetFloat("Vertical", moveDirection.y);
+            _animatorController.SetFloat(Horizontal, moveDirection.x);
+            _animatorController.SetFloat(Vertical, moveDirection.y);
         }
+    }
+
+    public void Attack(Vector2 targetDirection)
+    {
+        _animatorController.SetTrigger(AttackKey);
+
+        _animatorController.SetFloat(Horizontal, targetDirection.x);
+        _animatorController.SetFloat(Vertical, targetDirection.y);
     }
 
     public void Stalking(Vector2 moveDirection)
@@ -65,7 +78,12 @@ public class ZombieController : MonoBehaviour
 
         _animatorController.SetTrigger(StalkingKey);
 
-        _animatorController.SetFloat("Horizontal", moveDirection.x);
-        _animatorController.SetFloat("Vertical", moveDirection.y);
+        _animatorController.SetFloat(Horizontal, moveDirection.x);
+        _animatorController.SetFloat(Vertical, moveDirection.y);
+    }
+
+    public void Die()
+    {
+        _animatorController.SetTrigger(DieKey);
     }
 }

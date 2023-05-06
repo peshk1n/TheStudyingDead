@@ -21,19 +21,25 @@ public class ZombieAI : MonoBehaviour
     private HealthComponent _hp;
     private Collider2D _collider;
 
-    private void Start()
+    private void Awake()
     {
         _animator = GetComponent<Animator>();
         _damageComponent = GetComponent<ModifyHealthComponent>();
         _hp = GetComponent<HealthComponent>();
         _collider = GetComponent<Collider2D>();
+    }
 
-        StartState(Patrolling());
+    private void Start()
+    {
+        if (_vision.IsTouchingLayer)
+            StartState(StalkingPlayer());
+        else
+            StartState(Patrolling());
     }
 
     private void StartState(IEnumerator coroutine)
     {
-        _zombieController.Move(Vector2.zero);
+        _rigidbody.velocity = Vector3.zero;
 
         if (_current != null)
             StopCoroutine(_current);
@@ -43,6 +49,7 @@ public class ZombieAI : MonoBehaviour
 
     private IEnumerator Patrolling()
     {
+        Debug.Log("Patrolling");
         yield return _zombieController.DoPatrol();
     }
 
@@ -51,6 +58,8 @@ public class ZombieAI : MonoBehaviour
         if (_isDead)
             return;
 
+        Debug.Log("OnPlayerInVision");
+
         StartState(StalkingPlayer());
     }
 
@@ -58,6 +67,7 @@ public class ZombieAI : MonoBehaviour
     {
         while (_vision.IsTouchingLayer)
         {
+            Debug.Log("Stalking player");
             if (_canAttack.IsTouchingLayer)
             {
                 StartCoroutine(Attack());
@@ -73,31 +83,25 @@ public class ZombieAI : MonoBehaviour
         StartState(Patrolling());
     }
 
+    public void DamagePlayer()
+    {
+        _damageComponent.Apply(_target.gameObject);
+    }
 
     private IEnumerator Attack()
     {
         Vector3 direction = (_target.transform.position - transform.position).normalized;
         _rigidbody.AddForce(direction * 3);
 
-        _animator.SetTrigger("Attack");
-        _damageComponent.Apply(_target.gameObject);
+        _zombieController.Attack(direction);
         yield return new WaitForSeconds(_attackCooldown);
-    }
-
-    public void Discard()
-    {
-        Vector3 direction = (_target.transform.position - transform.position).normalized;
-        _rigidbody.AddForceAtPosition(-1 * direction * _pushForce, _target.transform.position, ForceMode2D.Impulse);
-        _hp.ModifyHealth(_hp.MaxHealth);
-
-        Debug.Log("Zombie died");
     }
 
     public void Die()
     {
         _rigidbody.velocity = Vector2.zero;
         _collider.enabled = false;
-        _animator.SetTrigger("Die");
+        _zombieController.Die();
         _isDead = true;
 
         if (_current != null)
