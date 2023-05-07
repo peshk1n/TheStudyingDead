@@ -85,8 +85,8 @@ public class PlayerController : MonoBehaviour
 
     public void CloseAllWindows()
     {
-        _menuWindow.Close();
-        _boardWindow.Close();
+        //_menuWindow.Close();
+        //_boardWindow.Close();
         _inventoryWindow.Close();
     }
 
