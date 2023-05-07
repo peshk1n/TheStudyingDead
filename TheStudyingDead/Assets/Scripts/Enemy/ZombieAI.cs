@@ -16,16 +16,12 @@ public class ZombieAI : MonoBehaviour
     private Coroutine _current;
     private bool _isDead = false;
 
-    private Animator _animator;
     private ModifyHealthComponent _damageComponent;
-    private HealthComponent _hp;
     private Collider2D _collider;
 
     private void Awake()
     {
-        _animator = GetComponent<Animator>();
         _damageComponent = GetComponent<ModifyHealthComponent>();
-        _hp = GetComponent<HealthComponent>();
         _collider = GetComponent<Collider2D>();
     }
 
@@ -49,7 +45,6 @@ public class ZombieAI : MonoBehaviour
 
     private IEnumerator Patrolling()
     {
-        Debug.Log("Patrolling");
         yield return _zombieController.DoPatrol();
     }
 
@@ -58,8 +53,6 @@ public class ZombieAI : MonoBehaviour
         if (_isDead)
             return;
 
-        Debug.Log("OnPlayerInVision");
-
         StartState(StalkingPlayer());
     }
 
@@ -67,7 +60,6 @@ public class ZombieAI : MonoBehaviour
     {
         while (_vision.IsTouchingLayer)
         {
-            Debug.Log("Stalking player");
             if (_canAttack.IsTouchingLayer)
             {
                 StartCoroutine(Attack());

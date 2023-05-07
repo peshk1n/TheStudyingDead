@@ -60,7 +60,7 @@ Material:
     - _ScanLinesStrength: 1
     - _Switch: 0
     - _VignetteRadius: 1
-    - _VignetteSoftness: 0.5
+    - _VignetteSoftness: 0.3
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Flip: {r: 1, g: 1, b: 1, a: 1}

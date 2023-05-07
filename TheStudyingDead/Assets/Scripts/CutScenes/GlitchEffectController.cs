@@ -11,21 +11,18 @@ public class GlitchEffectController : MonoBehaviour
     {
         float hp = (float)_player.CurHealth / (float)_player.MaxHealth;
 
-        /*        _screenMaterial.SetFloat("_Switch", 1);
-                _screenMaterial.SetFloat("_ScanLinesStrength", hp);*/
-
-        if (hp >= 9)
+        if (hp >= 0.9)
         {
             DisableGlitchEffect();
             return;
         }
 
+        _screenMaterial.SetFloat("_Switch", 1-hp);
         _screenMaterial.SetFloat("_NoiseAmount", 50);
-
         _screenMaterial.SetFloat("_VignetteRadius", Mathf.Lerp(0.5f, 0.8f, hp));
         _screenMaterial.SetFloat("_ScanLinesStrength", hp);
 
-        if (hp <= 0.6)
+        if (hp <= 0.7)
         {
             _screenMaterial.SetFloat("_GlitchStrength", 1);
         }
@@ -39,7 +36,7 @@ public class GlitchEffectController : MonoBehaviour
         _screenMaterial.SetFloat("_GlitchStrength", 0);
         _screenMaterial.SetFloat("_ScanLinesStrength", 1);
         _screenMaterial.SetFloat("_VignetteRadius", 1);
-        _screenMaterial.SetFloat("_VignetteSoftness", 0.5f);
+        //_screenMaterial.SetFloat("_VignetteSoftness", 0.5f);
     }
 
     public void DisableGlitchEffect()
@@ -61,6 +58,6 @@ public class GlitchEffectController : MonoBehaviour
         _screenMaterial.SetFloat("_GlitchStrength", 1);
         _screenMaterial.SetFloat("_ScanLinesStrength", 0);
         _screenMaterial.SetFloat("_VignetteRadius", 1);
-        _screenMaterial.SetFloat("_VignetteSoftness", 0.5f);
+        //_screenMaterial.SetFloat("_VignetteSoftness", 0.5f);
     }
 }

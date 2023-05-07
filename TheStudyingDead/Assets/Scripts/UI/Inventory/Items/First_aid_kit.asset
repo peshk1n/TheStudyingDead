@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: first_aid_kit
   icon: {fileID: 21300000, guid: 87f038a12dcf6484fb25067c6aea4d3e, type: 3}
-  isQuestItem: 1
-  healthImprov: 4000
+  isQuestItem: 0
+  healthImprov: 100

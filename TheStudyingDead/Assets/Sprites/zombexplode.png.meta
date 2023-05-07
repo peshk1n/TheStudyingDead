@@ -20,11 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -63,6 +64,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
@@ -230,6 +232,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: zombexplode_6
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 15
+        width: 38
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5456ee04c8da684cb5a386cccf8ee8c
+      internalID: 583479435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -241,15 +264,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      zombexplode_4: -152479449
-      zombexplode_3: -47597188
-      zombexplode_5: -328297988
+      zombexplode_0: -1617279342
       zombexplode_1: 284947127
       zombexplode_2: 874909547
-      zombexplode_0: -1617279342
-  spritePackingTag: 
+      zombexplode_3: -47597188
+      zombexplode_4: -152479449
+      zombexplode_5: -328297988
+      zombexplode_6: 583479435
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

@@ -15,4 +15,4 @@ MonoBehaviour:
   id: Apple
   icon: {fileID: 21300000, guid: c4ab52b90a1447f4eac05ff791b825ea, type: 3}
   isQuestItem: 0
-  healthImprov: 400
+  healthImprov: 10

@@ -36,6 +36,9 @@ public class Player : MonoBehaviour
         }
         else
         {
+            if(_health > _maxHealth)
+                _health = _maxHealth;
+
             _onHeal?.Invoke();
         }
 
