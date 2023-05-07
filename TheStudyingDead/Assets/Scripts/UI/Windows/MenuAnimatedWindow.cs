@@ -54,7 +54,7 @@ public class MenuAnimatedWindow : MonoBehaviour
         GameObjControl.Instance.money = pl.MoneyStart;
         GameObjControl.Instance.health = pl.MaxHealth;
         GameObjControl.Instance.inventory = new List<InventorySlot>();
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene("SampleScene");
         Close();
     }
 
