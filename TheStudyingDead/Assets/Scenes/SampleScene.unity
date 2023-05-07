@@ -46340,6 +46340,22 @@ PrefabInstance:
       propertyPath: _isTouchingLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5448182758117916636, guid: 9186bcac63970b6479741fcfc98e2390, type: 3}
+      propertyPath: _onDeath.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5448182758117916636, guid: 9186bcac63970b6479741fcfc98e2390, type: 3}
+      propertyPath: _onDeath.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 468104808}
+    - target: {fileID: 5448182758117916636, guid: 9186bcac63970b6479741fcfc98e2390, type: 3}
+      propertyPath: _onDeath.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Turn
+      objectReference: {fileID: 0}
+    - target: {fileID: 5448182758117916636, guid: 9186bcac63970b6479741fcfc98e2390, type: 3}
+      propertyPath: _onDeath.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: TurnOn, Assembly-CSharp
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2250020907227421265, guid: 9186bcac63970b6479741fcfc98e2390, type: 3}
     m_RemovedGameObjects: []
