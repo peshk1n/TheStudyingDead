@@ -83,13 +83,6 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    public void CloseAllWindows()
-    {
-        //_menuWindow.Close();
-        //_boardWindow.Close();
-        _inventoryWindow.Close();
-    }
-
     public void OnOpenNotebook()
     {
         _menuWindow.Close();
