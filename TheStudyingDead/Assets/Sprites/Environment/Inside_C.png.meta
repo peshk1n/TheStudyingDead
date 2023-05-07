@@ -360,13 +360,13 @@ TextureImporter:
       name: Inside_C_12
       rect:
         serializedVersion: 2
-        x: 0
-        y: 591
-        width: 44
-        height: 66
+        x: 6
+        y: 595
+        width: 37
+        height: 61
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 3, y: 3, z: 3, w: 3}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -1269,7 +1269,7 @@ TextureImporter:
         height: 23
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 2, y: 12, z: 2, w: 2}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -1290,7 +1290,7 @@ TextureImporter:
         height: 21
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 3, y: 10, z: 2, w: 2}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -1311,7 +1311,7 @@ TextureImporter:
         height: 23
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 3, y: 13, z: 3, w: 2}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -1332,7 +1332,7 @@ TextureImporter:
         height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 2, y: 4, z: 2, w: 2}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -2823,7 +2823,7 @@ TextureImporter:
         height: 37
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 6, y: 16, z: 9, w: 4}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -3023,6 +3023,48 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Inside_C_139
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 467
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3176d0e249003ea43a610cbdbca90acd
+      internalID: -427004257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside_C_140
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 411
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96fea74f0947fd946a88be64a61b447e
+      internalID: 757715857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -3093,6 +3135,7 @@ TextureImporter:
       Inside_C_136: 1673863595
       Inside_C_129: -379783119
       Inside_C_123: 2081086406
+      Inside_C_140: 757715857
       Inside_C_118: -1457405167
       Inside_C_55: -1839402006
       Inside_C_11: -293675853
@@ -3144,6 +3187,7 @@ TextureImporter:
       Inside_C_97: -446931955
       Inside_C_31: 63483202
       Inside_C_49: 1094064399
+      Inside_C_139: -427004257
       Inside_C_32: -1030017081
       Inside_C_82: 890291170
       Inside_C_17: 607962103
