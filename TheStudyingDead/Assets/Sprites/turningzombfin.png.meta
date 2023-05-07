@@ -20,11 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -33,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 2
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -63,6 +64,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
@@ -535,29 +537,28 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      turningzombfin_16: -1007665460
-      turningzombfin_12: -1379868398
-      turningzombfin_9: 1013933386
-      turningzombfin_5: -1933413592
-      turningzombfin_13: -242413751
-      turningzombfin_19: -1592693574
-      turningzombfin_6: -2118599966
-      turningzombfin_1: 370118316
-      turningzombfin_17: 1132590105
       turningzombfin_0: 1696137374
-      turningzombfin_18: -1259369287
-      turningzombfin_15: 141077211
-      turningzombfin_8: 325706490
-      turningzombfin_4: 100837925
-      turningzombfin_11: 1196082386
+      turningzombfin_1: 370118316
       turningzombfin_10: 1886712701
-      turningzombfin_3: 527360796
-      turningzombfin_2: 1365978373
+      turningzombfin_11: 1196082386
+      turningzombfin_12: -1379868398
+      turningzombfin_13: -242413751
       turningzombfin_14: 1986312342
+      turningzombfin_15: 141077211
+      turningzombfin_16: -1007665460
+      turningzombfin_17: 1132590105
+      turningzombfin_18: -1259369287
+      turningzombfin_19: -1592693574
+      turningzombfin_2: 1365978373
+      turningzombfin_3: 527360796
+      turningzombfin_4: 100837925
+      turningzombfin_5: -1933413592
+      turningzombfin_6: -2118599966
       turningzombfin_7: 735650333
-  spritePackingTag: 
+      turningzombfin_8: 325706490
+      turningzombfin_9: 1013933386
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

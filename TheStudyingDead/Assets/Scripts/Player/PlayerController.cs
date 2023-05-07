@@ -1,4 +1,5 @@
 //using UnityEditor.Animations;
+using Unity.VisualScripting;
 using UnityEngine;
 
 [RequireComponent(typeof(Animator))]
@@ -80,6 +81,13 @@ public class PlayerController : MonoBehaviour
             else
                 _lantern.TurnOn();
         }
+    }
+
+    public void CloseAllWindows()
+    {
+        _menuWindow.Close();
+        _boardWindow.Close();
+        _inventoryWindow.Close();
     }
 
     public void OnOpenNotebook()

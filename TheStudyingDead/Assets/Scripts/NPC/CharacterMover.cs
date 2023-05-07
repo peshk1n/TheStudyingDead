@@ -52,11 +52,6 @@ public class CharacterMover : MonoBehaviour
         }
     }
 
-    public void MoveToPoint()
-    {
-        //Move(_point.position.normalized);
-    }
-
     private void Move(string direction)
     {
         _animatorController.Play($"Move {direction}");
