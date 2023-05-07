@@ -11,6 +11,8 @@ public class Inventory : MonoBehaviour
 
     [SerializeField] public UnityEvent OnInventoryChanged;
 
+    public List<InventorySlot> GetListInventory => items;
+
     public void AddItems(Item item, int amount = 1)
     {
         foreach (InventorySlot slot in items)

@@ -20,10 +20,26 @@ public class Player : MonoBehaviour
 
     public int Money => _money;
 
+    public int MoneyStart => _moneyStart;
+
     private void Awake()
     {
-        _health = _maxHealth;
-        _money = _moneyStart;
+        if (GameObjControl.Instance == null)
+        {
+            _money = _moneyStart;
+            _health = _maxHealth;
+        }
+        else
+        {
+            _money = GameObjControl.Instance.money;
+            _health = GameObjControl.Instance.health;
+            Inventory _inv = FindObjectOfType<Inventory>();
+            foreach (InventorySlot x in GameObjControl.Instance.inventory)
+            {
+                _inv.AddItems(x.item, x.amount);
+            }
+        }
+
     }
 
     public void ModifyHealth(int healthDelta)
