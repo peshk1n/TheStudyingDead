@@ -5641,6 +5641,7 @@ GameObject:
   m_Component:
   - component: {fileID: 434287968}
   - component: {fileID: 434287969}
+  - component: {fileID: 434287970}
   m_Layer: 0
   m_Name: BFF_v2_64_7
   m_TagString: Untagged
@@ -5715,6 +5716,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &434287970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 434287967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2a675cbaca7b374dbeb375ab97c8163, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _action:
+    m_PersistentCalls:
+      m_Calls: []
+  _bound:
+    name: []
+    sentences: []
+  _mode: 1
+  _external: {fileID: 11400000, guid: 2864590fcc1f36449affe79e310fda6a, type: 2}
 --- !u!1 &435084329
 GameObject:
   m_ObjectHideFlags: 0
@@ -7588,7 +7609,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 2001196084}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.26582745
+  m_Size: 0.26576516
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -10584,6 +10605,7 @@ GameObject:
   m_Component:
   - component: {fileID: 675916645}
   - component: {fileID: 675916644}
+  - component: {fileID: 675916646}
   m_Layer: 0
   m_Name: ProfessorClone
   m_TagString: Untagged
@@ -10658,6 +10680,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &675916646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 675916643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2a675cbaca7b374dbeb375ab97c8163, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _action:
+    m_PersistentCalls:
+      m_Calls: []
+  _bound:
+    name: []
+    sentences: []
+  _mode: 1
+  _external: {fileID: 11400000, guid: 7dbef1b4d8225d3498245c95c4c6d732, type: 2}
 --- !u!1 &704857008
 GameObject:
   m_ObjectHideFlags: 0
@@ -16007,7 +16049,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.43422794, y: 0.1051637}
   m_AnchorMax: {x: 0.577, y: 0.256485}
-  m_AnchoredPosition: {x: -2.3961945, y: 4.0011444}
+  m_AnchoredPosition: {x: -2.3961945, y: 4.0012665}
   m_SizeDelta: {x: 0.7921982, y: 27.069}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1253046140
