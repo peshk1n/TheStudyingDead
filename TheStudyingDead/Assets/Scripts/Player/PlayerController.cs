@@ -14,6 +14,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private RuntimeAnimatorController _armed;
     [SerializeField] private RuntimeAnimatorController _unarmed;
     [SerializeField] private float _attackDeley;
+    [SerializeField] private Animator _dialogueAnimator;
 
     private Rigidbody2D _rigidbody;
     private PlayerInput _playerInput;
@@ -99,7 +100,7 @@ public class PlayerController : MonoBehaviour
 
     public void Attack()
     {
-        if (!_isAttacking && _isArmed)
+        if (!_isAttacking && _isArmed && !_dialogueAnimator.GetBool("IsOpen"))
         {
             _isAttacking = true;
             _playerAttack.Attack();

@@ -16,13 +16,19 @@ public class InteractableObject : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        _tooltip.alpha = 1;
-        _spriteRenderer.color = new Color(0.9f, 0.9f, 0.9f);
+        if (collision.TryGetComponent<Player>(out Player player))
+        {
+            _tooltip.alpha = 1;
+            _spriteRenderer.color = new Color(0.9f, 0.9f, 0.9f);
+        }   
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        _tooltip.alpha = 0;
-        _spriteRenderer.color = Color.white;
+        if (collision.TryGetComponent<Player>(out Player player))
+        {
+            _tooltip.alpha = 0;
+            _spriteRenderer.color = Color.white;
+        }
     }
 }

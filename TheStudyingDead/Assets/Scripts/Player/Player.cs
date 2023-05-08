@@ -38,6 +38,8 @@ public class Player : MonoBehaviour
             {
                 _inv.AddItems(x.item, x.amount);
             }
+
+            ModifyHealth(0);
         }
 
     }

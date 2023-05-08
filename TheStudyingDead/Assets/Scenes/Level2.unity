@@ -38949,7 +38949,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 408f223b4feaf3f49b6dee258502ad4c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -61863,7 +61863,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4705a0950d02fc04bb8046d26bd8e32c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _maxHealth: 30
+  _maxHealth: 50
   _onDamage:
     m_PersistentCalls:
       m_Calls: []
@@ -113349,7 +113349,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1940137587}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.2657652
+  m_Size: 0.26582745
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -113855,7 +113855,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.030264832, y: 0.7368965}
   m_AnchorMax: {x: 0.9594902, y: 0.99500006}
-  m_AnchoredPosition: {x: 13.999924, y: -412.4999}
+  m_AnchoredPosition: {x: 13.999908, y: -412.49985}
   m_SizeDelta: {x: 13.293396, y: 814.127}
   m_Pivot: {x: 0.5, y: 0.50000006}
 --- !u!114 &1772720310
@@ -114573,7 +114573,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7575616383586808728, guid: 2c512bfd4fa62de4f96d3fb48f95dde2, type: 3}
       propertyPath: _onDeath.m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7575616383586808728, guid: 2c512bfd4fa62de4f96d3fb48f95dde2, type: 3}
       propertyPath: _onDamage.m_PersistentCalls.m_Calls.Array.size
@@ -114593,7 +114593,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7575616383586808728, guid: 2c512bfd4fa62de4f96d3fb48f95dde2, type: 3}
       propertyPath: _onDeath.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7575616383586808728, guid: 2c512bfd4fa62de4f96d3fb48f95dde2, type: 3}
       propertyPath: _onDamage.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -114614,7 +114614,7 @@ PrefabInstance:
     - target: {fileID: 7575616383586808728, guid: 2c512bfd4fa62de4f96d3fb48f95dde2, type: 3}
       propertyPath: _onDeath.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
-      objectReference: {fileID: 1788125688}
+      objectReference: {fileID: 256977541}
     - target: {fileID: 7575616383586808728, guid: 2c512bfd4fa62de4f96d3fb48f95dde2, type: 3}
       propertyPath: _onDamage.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -114653,7 +114653,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7575616383586808728, guid: 2c512bfd4fa62de4f96d3fb48f95dde2, type: 3}
       propertyPath: _onDeath.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
-      value: CloseAllWindows
+      value: set_alpha
       objectReference: {fileID: 0}
     - target: {fileID: 7575616383586808728, guid: 2c512bfd4fa62de4f96d3fb48f95dde2, type: 3}
       propertyPath: _onDamage.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -114673,7 +114673,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7575616383586808728, guid: 2c512bfd4fa62de4f96d3fb48f95dde2, type: 3}
       propertyPath: _onDeath.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: PlayerController, Assembly-CSharp
+      value: UnityEngine.CanvasGroup, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 7575616383586808728, guid: 2c512bfd4fa62de4f96d3fb48f95dde2, type: 3}
       propertyPath: _onDamage.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -114751,6 +114751,10 @@ PrefabInstance:
       propertyPath: _inventoryWindow
       value: 
       objectReference: {fileID: 574230192}
+    - target: {fileID: 7575616383586808733, guid: 2c512bfd4fa62de4f96d3fb48f95dde2, type: 3}
+      propertyPath: _dialogueAnimator
+      value: 
+      objectReference: {fileID: 2101228849}
     - target: {fileID: 7575616383586808734, guid: 2c512bfd4fa62de4f96d3fb48f95dde2, type: 3}
       propertyPath: _moveSpeed
       value: 4
